@@ -1,4 +1,4 @@
-// import vuetify from 'vite-plugin-vuetify'
+import vuetify from 'vite-plugin-vuetify'
 
 // PWA Config
 const title = 'TATTOO STUDIO LIST'
@@ -23,13 +23,13 @@ export default defineNuxtConfig({
   },
   modules: [
     'nuxt-icon',
-    '@kevinmarrec/nuxt-pwa'
+    '@kevinmarrec/nuxt-pwa',
     // this adds the vuetify vite plugin
     // also produces type errors in the current beta release
-    /* async (options, nuxt) => {
+     async (options, nuxt) => {
       // @ts-ignore
       nuxt.hooks.hook('vite:extendConfig', config => config.plugins.push(vuetify()))
-    } */
+    }
   ],
 
   app: {

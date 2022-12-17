@@ -1,15 +1,11 @@
 import '@mdi/font/css/materialdesignicons.css'
 import { createVuetify } from 'vuetify'
 import { aliases, mdi } from 'vuetify/iconsets/mdi'
-import * as components from 'vuetify/components'
-import * as directives from 'vuetify/directives'
 import { MAIN_THEME, mainTheme, MAIN_DARK_THEME, mainDarkTheme } from '@/helpers/themes'
 import { defaults } from '~~/helpers/defaults'
 
 export default defineNuxtPlugin((app) => {
   const vuetify = createVuetify({
-    components,
-    directives,
     ssr: true,
     defaults,
     // add theme
