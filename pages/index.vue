@@ -21,13 +21,13 @@
         </v-row>
       </v-col>
       <v-col cols="12">
-        <v-pagination v-if="pages > 1" v-model="page" :length="pages" />
+        <v-pagination v-if="pages > 1" v-model="page" :length="pages" density="compact" />
       </v-col>
       <v-col cols="12">
         <list-view :shops="shops" />
       </v-col>
       <v-col col="12">
-        <v-pagination v-if="pages > 1" v-model="page" :length="pages" />
+        <v-pagination v-if="pages > 1" v-model="page" :length="pages" density="compact" />
       </v-col>
     </v-row>
   </v-container>
