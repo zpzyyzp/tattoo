@@ -102,7 +102,10 @@ export default defineNuxtConfig({
           name: 'twitter:image',
           content: image
         }
-      ]
+      ],
+      script: [
+        { src: 'https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver,ResizeObserver,WebAnimations,Object.fromEntries,Array.prototype.at' }
+      ],
     }
   },
 
