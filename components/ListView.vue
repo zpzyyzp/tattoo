@@ -1,6 +1,6 @@
 <template>
   <v-row>
-    <v-col v-for="shop in shops" :key="shop.id" cols="6" lg="3">
+    <v-col v-for="shop in shops" :key="shop.id" cols="12" sm="6" md="4" lg="3">
       <v-card variant="outlined" class="fill-height" :to="'/shop/' + shop.id">
         <v-img :aspect-ratio="16 / 9" src="/no-image.jpg" cover />
         <v-card-title>{{ shop.name }}</v-card-title>
