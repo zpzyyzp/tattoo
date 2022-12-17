@@ -1,6 +1,6 @@
 <template>
-	<div>
-		<Icon v-bind="$attrs" />
-	</div>
+  <div>
+    <Icon v-bind="$attrs" />
+  </div>
 </template>
 <script setup></script>
