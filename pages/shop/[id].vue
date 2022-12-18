@@ -2,13 +2,9 @@
   <v-container class="fill-height">
     <v-row :dense="$vuetify.display.xs">
       <v-col cols="12">
-        <v-breadcrumbs :items="breadcrumbs">
-          <template #divider>
-            <v-icon color="secondary">
-              mdi-chevron-right
-            </v-icon>
-          </template>
-        </v-breadcrumbs>
+        <v-no-ssr>
+          <page-breadcrumbs :breadcrumbs="breadcrumbs" />
+        </v-no-ssr>
       </v-col>
       <v-col cols="12">
         <div class="title-header">
