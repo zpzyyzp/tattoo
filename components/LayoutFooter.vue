@@ -30,8 +30,8 @@
         </v-btn>
       </v-col>
       <v-col class="text-center" cols="12">
-        <div id="copyright">
-          ©TATTOO STUDIO LIST Powered by FLAG T.S.
+        <div id="copyright" class="text-body-2 text-sm-body-1">
+          ©TATTOO STUDIO LIST Powered by <a href="https://flag-ts.com/" target="_blank" class="text-decoration-none text-secondary">FLAG T.S.</a>
         </div>
       </v-col>
     </v-row>
