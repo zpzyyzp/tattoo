@@ -4,8 +4,8 @@ import vuetify from 'vite-plugin-vuetify'
 const title = 'TATTOO STUDIO LIST'
 const shortTitle = 'TATTOO STUDIO LIST'
 const description = 'TATTOO STUDIO LIST'
-const image = 'https://vuetify3nuxt3starter.behonbaker.com/starter.png'
-const url = 'https://vuetify3nuxt3starter.behonbaker.com/'
+const image = 'https://tattoo-shop-list.netlify.app/logo.png'
+const url = 'https://tattoo-shop-list.netlify.app/'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
