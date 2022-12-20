@@ -1,9 +1,9 @@
 import vuetify from 'vite-plugin-vuetify'
 
 // PWA Config
-const title = 'TATTOO STUDIO LIST'
-const shortTitle = 'TATTOO STUDIO LIST'
-const description = 'TATTOO STUDIO LIST'
+const title = 'TATTOO BOOK'
+const shortTitle = 'TATTOO BOOK'
+const description = 'TATTOO BOOK'
 const image = 'https://tattoo-shop-list.netlify.app/logo.png'
 const url = 'https://tattoo-shop-list.netlify.app/'
 
@@ -26,7 +26,7 @@ export default defineNuxtConfig({
     '@kevinmarrec/nuxt-pwa',
     // this adds the vuetify vite plugin
     // also produces type errors in the current beta release
-     async (options, nuxt) => {
+    async (options, nuxt) => {
       // @ts-ignore
       nuxt.hooks.hook('vite:extendConfig', config => config.plugins.push(vuetify()))
     }
@@ -105,7 +105,7 @@ export default defineNuxtConfig({
       ],
       script: [
         { src: 'https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver,ResizeObserver,WebAnimations,Object.fromEntries,Array.prototype.at' }
-      ],
+      ]
     }
   },
 

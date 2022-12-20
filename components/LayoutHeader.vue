@@ -1,7 +1,7 @@
 <template>
   <v-app-bar>
     <v-app-bar-title>
-      <v-img src="/logo.png" height="64" to="/" />
+      <v-img src="/logo.png" height="56" to="/" class="ma-2" />
     </v-app-bar-title>
     <template #append>
       <v-app-bar-nav-icon />
