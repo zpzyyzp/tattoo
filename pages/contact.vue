@@ -17,19 +17,11 @@
           </v-card-title>
           <v-divider color="secondary" />
           <v-card-text>
-            <h2>運営業者</h2>
-            <p>Flag TATTOO SUPPLY</p>
-            <h2>代表責任者</h2>
-            <p>二宮大輝</p>
-            <h2>所在地</h2>
-            <address>
-              <p>〒175-0093</p>
-              <p>東京都板橋区赤塚新町2-7-17 ライオンズ2F</p>
-            </address>
-            <h2>メールアドレス</h2>
-            <a href="mailto:info@flag-ts.com" class="text-decoration-none text-secondary">info@flag-ts.com</a>
-            <h2>URL</h2>
-            <a href="https://flag-ts.com/" target="_blank" class="text-decoration-none text-secondary">https://flag-ts.com/</a>
+            <p>各種お問い合わせに関しては、下記アドレスへお願いいたします。</p>
+            <v-btn href="mailto:info@flag-ts.com" color="secondary" class="ml-8">
+              <v-icon>mdi-email</v-icon>
+              info@flag-ts.com
+            </v-btn>
           </v-card-text>
         </v-card>
       </v-col>
@@ -38,7 +30,7 @@
 </template>
 
 <script setup>
-const title = '運営会社'
+const title = 'お問い合わせ'
 const breadcrumbs = computed(() => {
   return [
     {
@@ -68,15 +60,7 @@ useHead({
     padding-left: 1rem;
     line-height: 1.5;
   }
-  h2 {
-    background: #f6f6f6;
-    border-left: 0.5rem solid #aa3c34;
-    padding-left: 1.5rem;
-    line-height: 1.5;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-  a,p {
+  p {
     margin-bottom: 0.5rem;
     padding-left: 2rem;
   }

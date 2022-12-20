@@ -16,13 +16,13 @@
         </v-btn>
       </v-col>
       <v-col cols="12" class="d-flex justify-center flex-wrap">
-        <v-btn flat>
+        <v-btn flat to="/privacy">
           プライバシーポリシー
         </v-btn>
-        <v-btn flat>
+        <v-btn flat to="/terms">
           利用規約
         </v-btn>
-        <v-btn flat>
+        <v-btn flat to="/contact">
           お問い合わせ
         </v-btn>
         <v-btn flat to="/about">
