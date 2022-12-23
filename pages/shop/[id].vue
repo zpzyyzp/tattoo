@@ -139,7 +139,7 @@ const breadcrumbs = computed(() => {
     }
   ]
 })
-function instagramId (url) {
+function instagramId (url: string) {
   return url.replace('https://www.instagram.com/', '').replace('/', '')
 }
 // works lightbox
