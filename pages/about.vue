@@ -27,7 +27,7 @@
               <p>東京都板橋区赤塚新町2-7-17 ライオンズ2F</p>
             </address>
             <h2>メールアドレス</h2>
-            <a href="mailto:info@flag-ts.com" class="text-decoration-none text-secondary">info@flag-ts.com</a>
+            <a href="mailto:info@book.flag-ts.com" class="text-decoration-none text-secondary">info@book.flag-ts.com</a>
             <h2>URL</h2>
             <a href="https://flag-ts.com/" target="_blank" class="text-decoration-none text-secondary">https://flag-ts.com/</a>
           </v-card-text>

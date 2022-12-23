@@ -25,6 +25,7 @@
 	},
 	"dependencies": {
 		"vite-plugin-vuetify": "^1.0.1",
+		"vue-easy-lightbox": "^1.11.0",
 		"vue-gtag-next": "^1.14.0"
 	}
 }

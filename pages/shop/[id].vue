@@ -79,12 +79,45 @@
       </v-col>
       <v-col cols="12" class="works">
         <h2>作品画像</h2>
+        <v-row class="my-4">
+          <v-col
+            v-for="(img, idx) in imgs"
+            :key="idx"
+            class="d-flex child-flex"
+            cols="6"
+            sm="4"
+            md="3"
+          >
+            <v-img :src="img" aspect-ratio="1" cover @click="() => onShow(idx)">
+              <template #placeholder>
+                <v-row
+                  class="fill-height ma-0"
+                  align="center"
+                  justify="center"
+                >
+                  <v-progress-circular
+                    indeterminate
+                    color="secondary"
+                  />
+                </v-row>
+              </template>
+            </v-img>
+          </v-col>
+        </v-row>
+        <client-only>
+          <vue-easy-lightbox
+            :visible="visibleRef"
+            :index="indexRef"
+            :imgs="imgs"
+            @hide="onHide"
+          />
+        </client-only>
       </v-col>
     </v-row>
   </v-container>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 const route = useRoute()
 const { id } = route.params
 const { data: shop } = await useFetch('/api/shops/' + id)
@@ -109,6 +142,20 @@ const breadcrumbs = computed(() => {
 function instagramId (url) {
   return url.replace('https://www.instagram.com/', '').replace('/', '')
 }
+// works lightbox
+const visibleRef = ref(false)
+const indexRef = ref(0)
+const imgs = reactive([
+  '/work-landscape.jpg',
+  '/work-portrait.jpg',
+  '/work-square.jpg'
+])
+const onShow = (index: number) => {
+  indexRef.value = index
+  visibleRef.value = true
+}
+const onHide = () => (visibleRef.value = false)
+
 useHead({
   title: shop.value.name
 })

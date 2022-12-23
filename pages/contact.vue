@@ -18,9 +18,9 @@
           <v-divider color="secondary" />
           <v-card-text>
             <p>各種お問い合わせに関しては、下記アドレスへお願いいたします。</p>
-            <v-btn href="mailto:info@flag-ts.com" color="secondary" class="ml-8">
+            <v-btn href="mailto:info@book.flag-ts.com" color="secondary" class="ml-8">
               <v-icon>mdi-email</v-icon>
-              info@flag-ts.com
+              info@book.flag-ts.com
             </v-btn>
           </v-card-text>
         </v-card>
