@@ -49,7 +49,8 @@
 
 <script setup>
 import { useDisplay } from 'vuetify'
-import { shuffle } from 'lodash'
+import lodash from 'lodash'
+const { shuffle } = lodash
 
 useHead({
   title: 'TOP'
