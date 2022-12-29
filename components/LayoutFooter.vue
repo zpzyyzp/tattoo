@@ -5,10 +5,12 @@
         <v-divider color="secondary" />
       </v-col>
       <v-col cols="12" sm="6" class="d-flex justify-sm-end justify-center">
-        <v-img src="/logo.png" max-width="300" height="60" />
+        <nuxt-link to="/">
+          <v-img src="/logo.png" width="300" height="60" />
+        </nuxt-link>
       </v-col>
       <v-col cols="12" sm="6" class="d-flex justify-sm-start justify-center">
-        <v-btn size="x-large" to="/">
+        <v-btn size="x-large" href="https://blog.flag-ts.com/book-contact/" target="_blank">
           タトゥースタジオを掲載する
           <v-icon size="x-large" class="ml-4">
             mdi-chevron-right
