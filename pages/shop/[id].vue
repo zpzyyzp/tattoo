@@ -61,6 +61,22 @@
               </template>
               <a :href="shop.instagramOther" class="text-decoration-none text-secondary" target="_blank">{{ shop.instagramOther }}</a>
             </v-list-item>
+            <v-list-item v-if="shop.twitter">
+              <template #prepend>
+                <v-icon size="x-large" color="black">
+                  mdi-twitter
+                </v-icon>
+              </template>
+              <a :href="shop.twitter" class="text-decoration-none text-secondary" target="_blank">{{ shop.twitter }}</a>
+            </v-list-item>
+            <v-list-item v-if="shop.youtube">
+              <template #prepend>
+                <v-icon size="x-large" color="black">
+                  mdi-youtube
+                </v-icon>
+              </template>
+              <a :href="shop.youtube" class="text-decoration-none text-secondary" target="_blank">{{ shop.youtube }}</a>
+            </v-list-item>
             <v-list-item v-if="shop.phone">
               <template #prepend>
                 <v-icon size="x-large">
@@ -71,9 +87,11 @@
             </v-list-item>
           </v-list>
           <v-divider color="secondary" />
-          <v-card-text class="text-body-1">
-            <p>van tattoo studio では、皆様が気に入る最高のデザイン、一生を通して愛していただける作品をご提供します。</p>
-            <p>カスタムオーダーでお受けしておりますので、全く同じデザインでの施術はいたしておりません。当日も状況によっては承りますので、お気兼ねなくご連絡下さい。</p>
+          <v-card-text v-if="shop.description" class="text-body-1 description">
+            {{ shop.description }}
+          </v-card-text>
+          <v-card-text v-else class="text-body-1">
+            作成中……
           </v-card-text>
         </v-card>
       </v-col>
@@ -166,6 +184,10 @@ useHead({
   border-color: #666666;
   border-width: 2px;
   border-radius: 8px;
+  .description {
+    line-height: 1.5rem;
+    white-space: pre-line;
+  }
 }
 
 .v-divider {
