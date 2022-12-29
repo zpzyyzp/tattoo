@@ -16,13 +16,13 @@
             </div>
           </v-card-title>
           <v-divider color="secondary" />
-          <v-card-text>
+          <!--          <v-card-text>
             <p>各種お問い合わせに関しては、下記の問い合わせフォームからでお願いいたします。</p>
             <a href="https://blog.flag-ts.com/book-contact/" target="_blank" class="ml-8 text-decoration-none text-secondary">
               https://blog.flag-ts.com/book-contact/
             </a>
-          </v-card-text>
-          <!--          <v-card-text>
+          </v-card-text>-->
+          <v-card-text>
             <p>各種お問い合わせに関しては、下記のフォームへお願いいたします。</p>
             <v-form>
               <v-row>
@@ -45,7 +45,7 @@
                 </v-col>
               </v-row>
             </v-form>
-          </v-card-text>-->
+          </v-card-text>
         </v-card>
       </v-col>
     </v-row>
@@ -71,10 +71,10 @@ useHead({
   title
 })
 const formObj = reactive({
-  name: 'zpzyyzp',
-  email: 'zpzyyzp@gmail.com',
-  subject: 'test',
-  message: 'text'
+  name: null,
+  email: null,
+  subject: null,
+  message: null
 })
 async function postForm () {
   const formdata = new FormData()
