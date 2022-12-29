@@ -39,49 +39,37 @@
           <v-list>
             <v-list-item v-if="shop.url">
               <template #prepend>
-                <v-icon size="x-large" color="black">
-                  mdi-link-box-variant
-                </v-icon>
+                <v-img src="/url.png" width="32" height="32" class="mr-8" />
               </template>
               <a :href="shop.url" class="text-decoration-none text-secondary" target="_blank">{{ shop.url }}</a>
             </v-list-item>
             <v-list-item v-if="shop.instagram">
               <template #prepend>
-                <v-icon size="x-large" color="black">
-                  mdi-instagram
-                </v-icon>
+                <v-img src="/instagram.png" width="32" height="32" class="mr-8" />
               </template>
               <a :href="shop.instagram" class="text-decoration-none text-secondary" target="_blank">{{ instagramId(shop.instagram) }}</a>
             </v-list-item>
             <v-list-item v-if="shop.instagramOther">
               <template #prepend>
-                <v-icon size="x-large" color="black">
-                  mdi-instagram
-                </v-icon>
+                <v-img src="/instagram.png" width="32" height="32" class="mr-8" />
               </template>
               <a :href="shop.instagramOther" class="text-decoration-none text-secondary" target="_blank">{{ shop.instagramOther }}</a>
             </v-list-item>
             <v-list-item v-if="shop.twitter">
               <template #prepend>
-                <v-icon size="x-large" color="black">
-                  mdi-twitter
-                </v-icon>
+                <v-img src="/twitter.png" width="32" height="32" class="mr-8" />
               </template>
               <a :href="shop.twitter" class="text-decoration-none text-secondary" target="_blank">{{ shop.twitter }}</a>
             </v-list-item>
             <v-list-item v-if="shop.youtube">
               <template #prepend>
-                <v-icon size="x-large" color="black">
-                  mdi-youtube
-                </v-icon>
+                <v-img src="/youtube.png" width="32" height="32" class="mr-8" />
               </template>
               <a :href="shop.youtube" class="text-decoration-none text-secondary" target="_blank">{{ shop.youtube }}</a>
             </v-list-item>
             <v-list-item v-if="shop.phone">
               <template #prepend>
-                <v-icon size="x-large">
-                  mdi-phone-in-talk
-                </v-icon>
+                <v-img src="/tel.png" width="32" height="32" class="mr-8" />
               </template>
               <a :href="'tel:' + shop.phone" class="text-decoration-none text-secondary">{{ shop.phone }}</a>
             </v-list-item>
@@ -91,7 +79,7 @@
             {{ shop.description }}
           </v-card-text>
           <v-card-text v-else class="text-body-1">
-            作成中……
+            ・・・
           </v-card-text>
         </v-card>
       </v-col>
