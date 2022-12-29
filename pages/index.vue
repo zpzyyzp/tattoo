@@ -18,6 +18,7 @@
                 :items="prefecturesListCount"
                 clearable
                 hide-details
+                @update:model-value="resetPage"
               />
             </client-only>
           </v-col>
@@ -72,6 +73,7 @@ const shopsFiltered = computed(() => {
 })
 const filteredTotal = computed(() => { return shopsFiltered.value.length })
 const pages = computed(() => { return Math.ceil(filteredTotal.value / perPage) })
+const resetPage = () => { page.value = 1 }
 const shops = computed(() => { return shopsFiltered.value.slice(page.value * perPage - perPage, page.value * perPage) })
 const list = computed(() => { return shopsAll.value.map(x => x.prefectures) })
 const prefecturesListCount = computed(() => {
