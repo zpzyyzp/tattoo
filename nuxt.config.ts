@@ -114,13 +114,13 @@ export default defineNuxtConfig({
     meta: {
       name: shortTitle,
       author: 'zpzyyzp',
-      theme_color: '#4f46e5',
+      theme_color: '#fff',
       description
     },
     manifest: {
       name: shortTitle,
       short_name: shortTitle,
-      theme_color: '#4f46e5',
+      theme_color: '#fff',
       description
     }
   },
