@@ -1,3 +1,15 @@
+<script setup>
+defineProps({
+  shops: {
+    type: Array,
+    required: true
+  }
+})
+const imgUrl = (id) => {
+  return '/img/' + ('000' + id).slice(-3) + '/top.jpg'
+}
+</script>
+
 <template>
   <v-row justify="center">
     <v-col
@@ -9,7 +21,8 @@
       lg="3"
     >
       <v-card variant="outlined" class="fill-height" :to="'/shop/' + shop.id">
-        <v-img :aspect-ratio="16 / 9" src="/no-image.jpg" cover />
+        <v-img v-if="shop.image" :aspect-ratio="16 / 9" :src="imgUrl(shop.id)" cover />
+        <v-img v-else :aspect-ratio="16 / 9" src="/no-image.jpg" cover />
         <v-card-title>{{ shop.name }}</v-card-title>
         <v-card-subtitle>{{ shop.nameKana }}</v-card-subtitle>
         <v-card-text>
@@ -24,7 +37,7 @@
   </v-row>
 </template>
 
-<script>
+<!--<script>
 export default {
   name: 'ListView',
   props: {
@@ -35,7 +48,7 @@ export default {
     }
   }
 }
-</script>
+</script>-->
 
 <style scoped>
 .v-card--variant-outlined {
