@@ -5,9 +5,9 @@
     "image": true,
     "works": 3,
     "name": "van tattoo studio",
-    "nameKana": "ヴァン タトゥー スタジオ",
+    "nameKana": "バン タトゥー スタジオ",
     "artist": "Van",
-    "artistKana": "ヴァン",
+    "artistKana": "バン",
     "url": "https://vantattoo.com/",
     "instagram": "https://www.instagram.com/vantattootokyo/",
     "instagramOther": "",
@@ -1721,7 +1721,7 @@
   },
   {
     "id": 90,
-    "email": "bsa323760@gmail.com",
+    "email": "kupico69072185@yahoo.co.jp",
     "image": null,
     "works": null,
     "name": "yasu",
@@ -3142,8 +3142,8 @@
   {
     "id": 162,
     "email": "info@black-moon-tattoo.com",
-    "image": null,
-    "works": null,
+    "image": true,
+    "works": 3,
     "name": "Black Moon Tattoo",
     "nameKana": "ブラックムーンタトゥー",
     "artist": "Tomas Tomas 108, Chisaki",
@@ -3157,7 +3157,7 @@
     "prefectures": "埼玉県",
     "address": "熊谷市石原2丁目23-2",
     "phone": "08080419865",
-    "description": ""
+    "description": "ジオメトリックやトライバルなどのブラックワーク専門のタトゥーショップ。\nロンドンのタトゥーシーンの一線で長年活躍して来たTomas Tomas108、色々な国でのゲストワークやコンベンションを経験して来たChisakiが一人一人に合わせた、世界レベルの作品を制作します。\nフルボディの大きな作品からワンポイントまでご相談ください。"
   },
   {
     "id": 163,
@@ -3441,7 +3441,7 @@
   },
   {
     "id": 177,
-    "email": "cobrasrttattoo@gmail.com",
+    "email": "cobraarttattoo@gmail.com",
     "image": null,
     "works": null,
     "name": "Cobra art tattoo studio",
@@ -3982,8 +3982,8 @@
   {
     "id": 204,
     "email": "horisaki.11.4.18@docomo.ne.jp",
-    "image": null,
-    "works": null,
+    "image": true,
+    "works": 3,
     "name": "Hirosaki.s.d",
     "nameKana": "ホリサキ.エス.ディー",
     "artist": "ダニエル",
@@ -4062,8 +4062,8 @@
   {
     "id": 208,
     "email": "tattoo.the.life.tomo@gmail.com",
-    "image": null,
-    "works": null,
+    "image": true,
+    "works": 3,
     "name": "筑州彫とも（福岡県）",
     "nameKana": "チクシュウホリトモ",
     "artist": "筑州彫とも",
@@ -4077,7 +4077,7 @@
     "prefectures": "福岡県",
     "address": "八女市立花町",
     "phone": "",
-    "description": ""
+    "description": "福岡県八女市立花町で刺青師をしています。\n和彫り1時間12500円 （2時間ワンセット）3時間目〜10000円 \n他店手直し、カバーアップ1時間15000円 2時間ワンセット   二十歳未満不可\n和彫り専門"
   },
   {
     "id": 209,
