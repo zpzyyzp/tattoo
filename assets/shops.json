@@ -1202,22 +1202,22 @@
   {
     "id": 64,
     "email": "soukatattoo@gmail.com",
-    "image": null,
-    "works": null,
+    "image": true,
+    "works": 3,
     "name": "SOUKA DESIGN STUDIO",
-    "nameKana": "そうかでざいんすたじお",
-    "artist": "SOUKA",
+    "nameKana": "ソウカデザインスタジオ",
+    "artist": "SOUKA, SOUWA",
     "artistKana": "そうか",
     "url": "https://soukadesignstudio.com/",
     "instagram": "https://www.instagram.com/souka.design.studio/",
-    "instagramOther": "",
+    "instagramOther": "https://www.instagram.com/souwa_ink/",
     "youtube": "",
     "twitter": "",
     "facebook": "",
     "prefectures": "東京都",
     "address": "大田区蒲田5-21-13ペガサスステーションプラザ蒲田310号",
     "phone": "0367158209",
-    "description": ""
+    "description": "動物、人物のリアルなものから和彫り、シンプルなワンポイントまで幅広く承ります。\n女性彫師在籍ですので、初めてや女性のお客様も安心してお越しくださいませ。"
   },
   {
     "id": 65,
@@ -1502,8 +1502,8 @@
   {
     "id": 79,
     "email": "shiryudoh@gmail.com",
-    "image": null,
-    "works": null,
+    "image": true,
+    "works": 3,
     "name": "Shiryudoh",
     "nameKana": "シリュウドウ",
     "artist": "Ron",
@@ -1517,7 +1517,7 @@
     "prefectures": "東京都",
     "address": "葛飾区柴又1-44-14",
     "phone": "",
-    "description": ""
+    "description": "我々、Shiryudohはラインワークを主体とした、独自のスタイルをメインに手掛けているスタジオです。\nまたその独自の方向性から、刺青やタトゥーという呼び方ではなく、”彩纏SaiTen”という名前で呼んでおります。\n現在、東京都で唯一、重要文化的景観に指定される、葛飾区の柴又という古い街並みの中で営業しております（2023年内には品川区での営業も予定しております）。"
   },
   {
     "id": 80,
@@ -2063,7 +2063,7 @@
     "id": 107,
     "email": "classicworkstudio@gmail.com",
     "image": true,
-    "works": null,
+    "works": 3,
     "name": "CLASSIC WORK STUDIO",
     "nameKana": "クラシックワークスタジオ",
     "artist": "ukikasu",
@@ -2902,8 +2902,8 @@
   {
     "id": 150,
     "email": "estooneta28943@gmail.com",
-    "image": null,
-    "works": null,
+    "image": true,
+    "works": 3,
     "name": "Jadehearttattoo",
     "nameKana": "ジェイドハートタトゥー",
     "artist": "Esto,yuco,Rick",
@@ -3822,8 +3822,8 @@
   {
     "id": 196,
     "email": "mukieabetattoo@gmail.com",
-    "image": null,
-    "works": null,
+    "image": true,
+    "works": 3,
     "name": "MUKIE TATTOO",
     "nameKana": "ムーキー タトゥー",
     "artist": "Mukie",
@@ -3834,10 +3834,10 @@
     "youtube": "",
     "twitter": "",
     "facebook": "",
-    "prefectures": "その他",
-    "address": "非公開",
+    "prefectures": "東京都",
+    "address": "",
     "phone": "",
-    "description": ""
+    "description": "MUKIE TATTOO\n東京都渋谷区某所(詳しい住所はご予約確定時にお伝えしています)\nオールジャンル対応の女性彫師。\nカバーアップのご相談やデザインのご要望を納得いくまで丁寧なカウンセリングをさせていただきます。可愛い系〜イカツイ系〜綺麗系～リアルタッチなど、対応可能なジャンルが多いのでSNSかWebサイト(２月に完成予定)にて作品に目を通してご検討いただけると嬉しいです。日本語/English/中文/Svenska 対応可能。"
   },
   {
     "id": 197,
@@ -5476,6 +5476,26 @@
     "facebook": "",
     "prefectures": "千葉県",
     "address": "",
+    "phone": "",
+    "description": ""
+  },
+  {
+    "id": 279,
+    "email": "shinzo.tat2works@gmail.com",
+    "image": null,
+    "works": null,
+    "name": "43tattoo",
+    "nameKana": "43",
+    "artist": "",
+    "artistKana": "",
+    "url": "",
+    "instagram": "https://www.instagram.com/43__tattoo/",
+    "instagramOther": "",
+    "youtube": "",
+    "twitter": "",
+    "facebook": "",
+    "prefectures": "沖縄県",
+    "address": "中城村",
     "phone": "",
     "description": ""
   }
