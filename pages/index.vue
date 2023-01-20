@@ -53,10 +53,6 @@ import { useDisplay } from 'vuetify'
 import lodash from 'lodash'
 const { shuffle } = lodash
 
-useHead({
-  title: 'TOP'
-})
-
 const page = ref(1)
 const prefectures = ref(null)
 
@@ -94,5 +90,20 @@ const display = computed(() => {
   if (smAndDown.value) { return 'compact' }
   if (lgAndUp.value) { return 'default' }
   return 'comfortable'
+})
+
+const seoTitle = computed(() => {
+  return prefectures.value ? prefectures.value + 'の刺青・タトゥースタジオ・彫師の検索結果' : '全国の刺青・タトゥースタジオ・彫師を検索できるポータルサイト'
+})
+const description = computed(() => {
+  return prefectures.value ? '【TATTOO BOOK】' + prefectures.value + 'でおすすめの刺青・タトゥースタジオ。口コミで人気の彫師・タトゥーアーティストの情報や、作品（和彫り・ブラックアンドグレイ・トライバル・アメリカントラディショナル）を検索・予約できます。' : '【TATTOO BOOK】全国おすすめの刺青・タトゥースタジオを検索できるポータルサイトです。口コミで人気の彫師・タトゥーアーティストの情報や、作品（和彫り・ブラックアンドグレイ・トライバル・アメリカントラディショナル）を検索・予約できます。'
+})
+useHead({
+  title: seoTitle,
+  meta: [
+    { name: 'description', content: description },
+    { name: 'og:description', content: description },
+    { name: 'twitter:description', content: description }
+  ]
 })
 </script>

@@ -1,11 +1,11 @@
 import vuetify from 'vite-plugin-vuetify'
 
 // PWA Config
-const title = 'TATTOO BOOK'
-const shortTitle = 'TATTOO BOOK'
-const description = 'TATTOO BOOK'
-const image = 'https://tattoo-shop-list.netlify.app/logo.png'
-const url = 'https://tattoo-shop-list.netlify.app/'
+const title = '【TATTOO BOOK】'
+const shortTitle = '【TATTOO BOOK】'
+const description = '【TATTOO BOOK】全国おすすめの刺青・タトゥースタジオを検索できるポータルサイトです。口コミで人気の彫師・タトゥーアーティストの情報や、作品（和彫り・ブラックアンドグレイ・トライバル・アメリカントラディショナル）を検索・予約できます。'
+const image = 'https://book.flag-ts.com/logo.png'
+const url = 'https://book.flag-ts.com/'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
@@ -35,8 +35,8 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'TATTOO BOOK',
-      titleTemplate: '%s | TATTOO BOOK',
+      title: '【TATTOO BOOK】',
+      titleTemplate: '【TATTOO BOOK】%s',
       link: [
         {
           rel: 'stylesheet',
