@@ -35,8 +35,8 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'TATTOO STUDIO LIST',
-      titleTemplate: '%s | TATTOO STUDIO LIST',
+      title: 'TATTOO BOOK',
+      titleTemplate: '%s | TATTOO BOOK',
       link: [
         {
           rel: 'stylesheet',
@@ -400,7 +400,9 @@ export default defineNuxtConfig({
       '/shop/276',
       '/shop/277',
       '/shop/278',
-      '/shop/279'
+      '/shop/279',
+      '/shop/280',
+      '/shop/281'
     ]
   }
 })
