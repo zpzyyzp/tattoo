@@ -61,10 +61,12 @@ const prefecturesList = ['北海道', '青森県', '岩手県', '宮城県', '�
 
 const promoteShopList = [150, 282, 286]
 const { data: shopsAll } = await useFetch('/api/shops')
-const shopWithPromote = shuffle(shopsAll.value.filter(shop => promoteShopList.includes(shop.id)))
-const shopWithImage = shuffle(shopsAll.value.filter(shop => shop.image === true && !promoteShopList.includes(shop.id)))
+const shopWithPromote = shopsAll.value.filter(shop => promoteShopList.includes(shop.id))
+const shopWithImage = shopsAll.value.filter(shop => shop.image === true && !promoteShopList.includes(shop.id))
+const shopTopTen = shuffle([...shopWithPromote, ...shopWithImage.slice(0, 7)])
+const shopWithImageOther = shuffle(shopWithImage.slice(7, -1))
 const shopNoImage = shuffle(shopsAll.value.filter(shop => shop.image !== true))
-const shopShuffle = [].concat(shopWithPromote, shopWithImage, shopNoImage)
+const shopShuffle = [...shopTopTen, ...shopWithImageOther, ...shopNoImage]
 /* const shopShuffle = shuffle(shopsAll.value)
 const shopShuffleSort = [...shopShuffle].sort(function (a, b) {
   return b.image - a.image
