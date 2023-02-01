@@ -1,7 +1,7 @@
 [
   {
     "id": 2,
-    "email": "info@nvantattoo.com",
+    "email": "info@vantattoo.com",
     "image": true,
     "works": 3,
     "name": "van tattoo studio",
@@ -1542,8 +1542,8 @@
   {
     "id": 81,
     "email": "omote.yuji39@gmail.com",
-    "image": null,
-    "works": null,
+    "image": true,
+    "works": 3,
     "name": "刺青処・ 肌絵・彫ゆう",
     "nameKana": "イレズミドコロ・ハダエ・ホリユウ",
     "artist": "",
@@ -1557,7 +1557,7 @@
     "prefectures": "大分県",
     "address": "中津市",
     "phone": "",
-    "description": ""
+    "description": "私方カバーアップの方が多いです。40分5000円（一括払いも可能です）"
   },
   {
     "id": 82,
@@ -5623,7 +5623,7 @@
     "id": 286,
     "email": "shodaihoriai@gmail.com",
     "image": true,
-    "works": null,
+    "works": 5,
     "name": "彫あい",
     "nameKana": "ホリアイ",
     "artist": "彫あい",
@@ -5635,8 +5635,8 @@
     "twitter": "",
     "facebook": "",
     "prefectures": "東京都",
-    "address": "東京都新宿区大久保1-15-17 サンハイム大久保503号",
+    "address": "新宿区大久保1-15-17 サンハイム大久保503号",
     "phone": "09042083494",
-    "description": "【JAPANESE TATTOOER PRO TEAM所属】"
+    "description": "伝統的な和彫りの図柄を手がける彫師です。【JAPANESE TATTOOER PRO TEAM所属】"
   }
 ]
