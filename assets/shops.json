@@ -1,6 +1,8 @@
 [
   {
     "id": 2,
+    "pt": null,
+    "bk": null,
     "email": "info@vantattoo.com",
     "image": true,
     "works": 3,
@@ -21,9 +23,11 @@
   },
   {
     "id": 3,
+    "pt": null,
+    "bk": null,
     "email": "takuroflashart@gmail.com",
-    "image": null,
-    "works": null,
+    "image": true,
+    "works": 3,
     "name": "Dawn Ink",
     "nameKana": "ドーンインク",
     "artist": "Takuro",
@@ -37,10 +41,12 @@
     "prefectures": "徳島県",
     "address": "阿南市富岡町今福寺49-2",
     "phone": "",
-    "description": ""
+    "description": "徳島県阿南市でニュースクールスタイルをメインに活動してます！"
   },
   {
     "id": 4,
+    "pt": null,
+    "bk": null,
     "email": "eighttattoo@gmail.com",
     "image": true,
     "works": null,
@@ -61,6 +67,8 @@
   },
   {
     "id": 5,
+    "pt": null,
+    "bk": null,
     "email": "tksiiink@gmail.com",
     "image": null,
     "works": null,
@@ -81,6 +89,8 @@
   },
   {
     "id": 6,
+    "pt": null,
+    "bk": null,
     "email": "k2nj.0624@gmail.com",
     "image": null,
     "works": null,
@@ -101,6 +111,8 @@
   },
   {
     "id": 7,
+    "pt": null,
+    "bk": null,
     "email": "mail@svart-tattoo.com",
     "image": null,
     "works": null,
@@ -121,6 +133,8 @@
   },
   {
     "id": 8,
+    "pt": null,
+    "bk": null,
     "email": "godinhop35@gmail.com",
     "image": null,
     "works": null,
@@ -141,6 +155,8 @@
   },
   {
     "id": 9,
+    "pt": null,
+    "bk": null,
     "email": "needlingtattoo@gmail.com",
     "image": null,
     "works": null,
@@ -161,6 +177,8 @@
   },
   {
     "id": 10,
+    "pt": null,
+    "bk": null,
     "email": "mmail@amitabhatattoo.com",
     "image": null,
     "works": null,
@@ -181,6 +199,8 @@
   },
   {
     "id": 11,
+    "pt": null,
+    "bk": null,
     "email": "horiken.1st@gmail.com",
     "image": null,
     "works": null,
@@ -201,6 +221,8 @@
   },
   {
     "id": 12,
+    "pt": null,
+    "bk": null,
     "email": "mail@horikage.tokyo",
     "image": null,
     "works": null,
@@ -221,6 +243,8 @@
   },
   {
     "id": 13,
+    "pt": null,
+    "bk": null,
     "email": "tattoointokyo@gmail.com",
     "image": null,
     "works": null,
@@ -241,6 +265,8 @@
   },
   {
     "id": 14,
+    "pt": null,
+    "bk": null,
     "email": "exile2010@gmail.com",
     "image": null,
     "works": null,
@@ -261,6 +287,8 @@
   },
   {
     "id": 15,
+    "pt": null,
+    "bk": null,
     "email": "needlingtattoo@gmail.com",
     "image": null,
     "works": null,
@@ -281,6 +309,8 @@
   },
   {
     "id": 16,
+    "pt": null,
+    "bk": null,
     "email": "monsterskin0730@gmail.com",
     "image": null,
     "works": null,
@@ -301,6 +331,8 @@
   },
   {
     "id": 17,
+    "pt": null,
+    "bk": null,
     "email": "horiken1023@gmail.com",
     "image": null,
     "works": null,
@@ -321,6 +353,8 @@
   },
   {
     "id": 18,
+    "pt": null,
+    "bk": null,
     "email": "hiiro8026@gmail.com",
     "image": null,
     "works": null,
@@ -341,6 +375,8 @@
   },
   {
     "id": 19,
+    "pt": null,
+    "bk": null,
     "email": "atrum.tod@gmail.com",
     "image": null,
     "works": null,
@@ -361,6 +397,8 @@
   },
   {
     "id": 20,
+    "pt": null,
+    "bk": null,
     "email": "hadaeya1205@gmail.com",
     "image": true,
     "works": 3,
@@ -381,6 +419,8 @@
   },
   {
     "id": 21,
+    "pt": null,
+    "bk": null,
     "email": "lily.0720.1126@icloud.com",
     "image": null,
     "works": null,
@@ -401,6 +441,8 @@
   },
   {
     "id": 22,
+    "pt": null,
+    "bk": null,
     "email": "horigokoro@yahoo.co.jp",
     "image": null,
     "works": null,
@@ -421,6 +463,8 @@
   },
   {
     "id": 23,
+    "pt": null,
+    "bk": null,
     "email": "kan-tattoo@i.softbank.jp",
     "image": null,
     "works": null,
@@ -441,6 +485,8 @@
   },
   {
     "id": 24,
+    "pt": null,
+    "bk": null,
     "email": "horiharu08@gmail.com",
     "image": null,
     "works": null,
@@ -461,6 +507,8 @@
   },
   {
     "id": 25,
+    "pt": null,
+    "bk": null,
     "email": "sada026@icloud.com",
     "image": null,
     "works": null,
@@ -481,6 +529,8 @@
   },
   {
     "id": 26,
+    "pt": null,
+    "bk": null,
     "email": "yoh5427@yahoo.co.jp",
     "image": null,
     "works": null,
@@ -501,6 +551,8 @@
   },
   {
     "id": 27,
+    "pt": null,
+    "bk": null,
     "email": "nocturneink@gmail.com",
     "image": true,
     "works": 3,
@@ -521,6 +573,8 @@
   },
   {
     "id": 28,
+    "pt": null,
+    "bk": null,
     "email": "agituta2@gmail.com",
     "image": null,
     "works": null,
@@ -541,6 +595,8 @@
   },
   {
     "id": 29,
+    "pt": null,
+    "bk": null,
     "email": "horiyou.tattoo@docomo.ne.jp",
     "image": true,
     "works": 3,
@@ -561,6 +617,8 @@
   },
   {
     "id": 30,
+    "pt": null,
+    "bk": null,
     "email": "s.tattoo@i.softbank.jp",
     "image": null,
     "works": null,
@@ -581,6 +639,8 @@
   },
   {
     "id": 31,
+    "pt": null,
+    "bk": null,
     "email": "goodreaf.goodlife0820@gmail.com",
     "image": true,
     "works": 3,
@@ -601,6 +661,8 @@
   },
   {
     "id": 32,
+    "pt": null,
+    "bk": null,
     "email": "hakatahoribou@softbank.ne.jp",
     "image": true,
     "works": 3,
@@ -621,6 +683,8 @@
   },
   {
     "id": 33,
+    "pt": null,
+    "bk": null,
     "email": "ts.ink3@gmail.com",
     "image": null,
     "works": null,
@@ -641,6 +705,8 @@
   },
   {
     "id": 34,
+    "pt": null,
+    "bk": null,
     "email": "info@312inkmafia.shop",
     "image": null,
     "works": null,
@@ -661,6 +727,8 @@
   },
   {
     "id": 35,
+    "pt": null,
+    "bk": null,
     "email": "s.trhr.ory@au.com",
     "image": null,
     "works": null,
@@ -681,6 +749,8 @@
   },
   {
     "id": 36,
+    "pt": null,
+    "bk": null,
     "email": "triggertattoo@gmail.com",
     "image": true,
     "works": 3,
@@ -701,6 +771,8 @@
   },
   {
     "id": 38,
+    "pt": null,
+    "bk": null,
     "email": "asahara56@icloud.com",
     "image": null,
     "works": null,
@@ -721,6 +793,8 @@
   },
   {
     "id": 39,
+    "pt": null,
+    "bk": null,
     "email": "asumi.kouji@ezweb.ne.jp",
     "image": null,
     "works": null,
@@ -741,6 +815,8 @@
   },
   {
     "id": 40,
+    "pt": null,
+    "bk": null,
     "email": "monpe1966@gmail.com",
     "image": true,
     "works": 3,
@@ -761,6 +837,8 @@
   },
   {
     "id": 41,
+    "pt": null,
+    "bk": null,
     "email": "artwork63tattoo@gmail.com",
     "image": true,
     "works": 3,
@@ -781,6 +859,8 @@
   },
   {
     "id": 42,
+    "pt": null,
+    "bk": null,
     "email": "highgainink@icloud.com",
     "image": null,
     "works": null,
@@ -801,6 +881,8 @@
   },
   {
     "id": 43,
+    "pt": null,
+    "bk": null,
     "email": "horisui.akatsuki@gmail.com",
     "image": null,
     "works": null,
@@ -821,6 +903,8 @@
   },
   {
     "id": 44,
+    "pt": null,
+    "bk": null,
     "email": "tattoo.house.0105@gmail.com",
     "image": null,
     "works": null,
@@ -841,6 +925,8 @@
   },
   {
     "id": 45,
+    "pt": null,
+    "bk": null,
     "email": "info@rei-tattoo.sub.jp",
     "image": null,
     "works": null,
@@ -861,6 +947,8 @@
   },
   {
     "id": 46,
+    "pt": null,
+    "bk": null,
     "email": "horihide.ta2@gmail.com",
     "image": true,
     "works": 3,
@@ -881,6 +969,8 @@
   },
   {
     "id": 47,
+    "pt": null,
+    "bk": null,
     "email": "trickblue@trickblue.com",
     "image": true,
     "works": 3,
@@ -901,6 +991,8 @@
   },
   {
     "id": 48,
+    "pt": null,
+    "bk": null,
     "email": "moritoeiki@icloud.com",
     "image": true,
     "works": 3,
@@ -921,6 +1013,8 @@
   },
   {
     "id": 49,
+    "pt": null,
+    "bk": null,
     "email": "kaiotulio@hotmail.com",
     "image": null,
     "works": null,
@@ -941,6 +1035,8 @@
   },
   {
     "id": 50,
+    "pt": null,
+    "bk": null,
     "email": "ub8b7e68e76yp@ezweb.ne.jp",
     "image": true,
     "works": 3,
@@ -961,6 +1057,8 @@
   },
   {
     "id": 51,
+    "pt": null,
+    "bk": null,
     "email": "awa.horishige@docomo.ne.jp",
     "image": true,
     "works": 3,
@@ -981,6 +1079,8 @@
   },
   {
     "id": 52,
+    "pt": null,
+    "bk": null,
     "email": "addition_20091212@docomo.ne.jp",
     "image": null,
     "works": null,
@@ -1001,6 +1101,8 @@
   },
   {
     "id": 53,
+    "pt": null,
+    "bk": null,
     "email": "oliver_tattoo@outlook.com",
     "image": null,
     "works": null,
@@ -1021,6 +1123,8 @@
   },
   {
     "id": 54,
+    "pt": null,
+    "bk": null,
     "email": "t-e-t.horijin@i.softbank.jp",
     "image": null,
     "works": null,
@@ -1041,6 +1145,8 @@
   },
   {
     "id": 55,
+    "pt": null,
+    "bk": null,
     "email": "ritetattoo@gmail.com",
     "image": null,
     "works": null,
@@ -1061,6 +1167,8 @@
   },
   {
     "id": 56,
+    "pt": null,
+    "bk": null,
     "email": "onelove.seiyaaaaa@gmail.com",
     "image": null,
     "works": null,
@@ -1081,6 +1189,8 @@
   },
   {
     "id": 57,
+    "pt": null,
+    "bk": null,
     "email": "irezumiyahoririki@gmail.com",
     "image": true,
     "works": 3,
@@ -1101,6 +1211,8 @@
   },
   {
     "id": 59,
+    "pt": null,
+    "bk": null,
     "email": "takabontattoo@gmail.com",
     "image": null,
     "works": null,
@@ -1121,6 +1233,8 @@
   },
   {
     "id": 60,
+    "pt": null,
+    "bk": null,
     "email": "hibihori@gmail.com",
     "image": null,
     "works": null,
@@ -1141,6 +1255,8 @@
   },
   {
     "id": 61,
+    "pt": null,
+    "bk": null,
     "email": "b.o.b.inc@yahoo.ne.jp",
     "image": null,
     "works": null,
@@ -1161,6 +1277,8 @@
   },
   {
     "id": 62,
+    "pt": null,
+    "bk": null,
     "email": "dqmslrion@gmail.com",
     "image": null,
     "works": null,
@@ -1181,6 +1299,8 @@
   },
   {
     "id": 63,
+    "pt": null,
+    "bk": null,
     "email": "hiro@cotton-pickin.com",
     "image": null,
     "works": null,
@@ -1201,6 +1321,8 @@
   },
   {
     "id": 64,
+    "pt": null,
+    "bk": null,
     "email": "soukatattoo@gmail.com",
     "image": true,
     "works": 3,
@@ -1221,6 +1343,8 @@
   },
   {
     "id": 65,
+    "pt": null,
+    "bk": null,
     "email": "nirinkan46@gmail.com",
     "image": true,
     "works": 3,
@@ -1241,6 +1365,8 @@
   },
   {
     "id": 66,
+    "pt": null,
+    "bk": null,
     "email": "grenadeink@gmail.com",
     "image": null,
     "works": null,
@@ -1261,6 +1387,8 @@
   },
   {
     "id": 67,
+    "pt": null,
+    "bk": null,
     "email": "npts666@gmail.com",
     "image": null,
     "works": null,
@@ -1281,6 +1409,8 @@
   },
   {
     "id": 68,
+    "pt": null,
+    "bk": null,
     "email": "miya1118r@gmail.com",
     "image": null,
     "works": null,
@@ -1301,6 +1431,8 @@
   },
   {
     "id": 69,
+    "pt": null,
+    "bk": null,
     "email": "info@horihisa.com",
     "image": null,
     "works": null,
@@ -1321,6 +1453,8 @@
   },
   {
     "id": 70,
+    "pt": null,
+    "bk": null,
     "email": "sada23jp@yahoo.co.jp",
     "image": true,
     "works": 3,
@@ -1341,6 +1475,8 @@
   },
   {
     "id": 71,
+    "pt": null,
+    "bk": null,
     "email": "bachibachiba9@gmail.com",
     "image": true,
     "works": 3,
@@ -1361,6 +1497,8 @@
   },
   {
     "id": 72,
+    "pt": null,
+    "bk": null,
     "email": "watattoo0617@gmail.com",
     "image": null,
     "works": null,
@@ -1381,6 +1519,8 @@
   },
   {
     "id": 73,
+    "pt": null,
+    "bk": null,
     "email": "eigoimamura@gmail.com",
     "image": null,
     "works": null,
@@ -1401,6 +1541,8 @@
   },
   {
     "id": 74,
+    "pt": null,
+    "bk": null,
     "email": "t.y.r.k.0523@docomo.ne.jp",
     "image": null,
     "works": null,
@@ -1421,6 +1563,8 @@
   },
   {
     "id": 75,
+    "pt": null,
+    "bk": null,
     "email": "contact@2crow.com",
     "image": true,
     "works": 3,
@@ -1441,6 +1585,8 @@
   },
   {
     "id": 76,
+    "pt": null,
+    "bk": null,
     "email": "toshitattoo0223@icloud.com",
     "image": null,
     "works": null,
@@ -1461,6 +1607,8 @@
   },
   {
     "id": 77,
+    "pt": null,
+    "bk": null,
     "email": "info@jpstyleink.com",
     "image": null,
     "works": null,
@@ -1481,6 +1629,8 @@
   },
   {
     "id": 78,
+    "pt": null,
+    "bk": null,
     "email": "improve.tattoo@gmail.com",
     "image": null,
     "works": null,
@@ -1501,6 +1651,8 @@
   },
   {
     "id": 79,
+    "pt": null,
+    "bk": null,
     "email": "shiryudoh@gmail.com",
     "image": true,
     "works": 3,
@@ -1521,6 +1673,8 @@
   },
   {
     "id": 80,
+    "pt": null,
+    "bk": null,
     "email": "horiyu.official@gmail.com",
     "image": null,
     "works": null,
@@ -1541,6 +1695,8 @@
   },
   {
     "id": 81,
+    "pt": null,
+    "bk": null,
     "email": "omote.yuji39@gmail.com",
     "image": true,
     "works": 3,
@@ -1561,6 +1717,8 @@
   },
   {
     "id": 82,
+    "pt": null,
+    "bk": null,
     "email": "o41@s.vodafone.ne.jp",
     "image": true,
     "works": 3,
@@ -1581,6 +1739,8 @@
   },
   {
     "id": 83,
+    "pt": null,
+    "bk": null,
     "email": "toshiki.26.37@gmail.com",
     "image": null,
     "works": null,
@@ -1601,6 +1761,8 @@
   },
   {
     "id": 84,
+    "pt": null,
+    "bk": null,
     "email": "axiz_and_nico@icloud.com",
     "image": null,
     "works": null,
@@ -1621,6 +1783,8 @@
   },
   {
     "id": 85,
+    "pt": null,
+    "bk": null,
     "email": "acetattoogarage@gmail.com",
     "image": null,
     "works": null,
@@ -1641,6 +1805,8 @@
   },
   {
     "id": 86,
+    "pt": null,
+    "bk": null,
     "email": "horijyou.atugi-tattoo@docomo.ne.jp",
     "image": null,
     "works": null,
@@ -1661,6 +1827,8 @@
   },
   {
     "id": 87,
+    "pt": null,
+    "bk": null,
     "email": "kokushimusume@gmail.com",
     "image": null,
     "works": null,
@@ -1681,6 +1849,8 @@
   },
   {
     "id": 88,
+    "pt": null,
+    "bk": null,
     "email": "info@rainfalltattoo.com",
     "image": null,
     "works": null,
@@ -1701,6 +1871,8 @@
   },
   {
     "id": 89,
+    "pt": null,
+    "bk": null,
     "email": "sumiyaenyu368@gmail.com",
     "image": true,
     "works": 3,
@@ -1721,6 +1893,8 @@
   },
   {
     "id": 90,
+    "pt": null,
+    "bk": null,
     "email": "bsa323760@gmail.com",
     "image": null,
     "works": null,
@@ -1741,6 +1915,8 @@
   },
   {
     "id": 91,
+    "pt": null,
+    "bk": null,
     "email": "info@motattoo.org",
     "image": null,
     "works": null,
@@ -1761,6 +1937,8 @@
   },
   {
     "id": 92,
+    "pt": null,
+    "bk": null,
     "email": "tengokudo@iCloud.com",
     "image": null,
     "works": null,
@@ -1781,6 +1959,8 @@
   },
   {
     "id": 93,
+    "pt": null,
+    "bk": null,
     "email": "pandemit666@yahoo.co.jp",
     "image": true,
     "works": 3,
@@ -1801,6 +1981,8 @@
   },
   {
     "id": 94,
+    "pt": null,
+    "bk": null,
     "email": "Morihiko96@me.com",
     "image": null,
     "works": null,
@@ -1821,6 +2003,8 @@
   },
   {
     "id": 95,
+    "pt": null,
+    "bk": null,
     "email": "funtimetattoo19@gmail.com",
     "image": null,
     "works": null,
@@ -1841,6 +2025,8 @@
   },
   {
     "id": 96,
+    "pt": null,
+    "bk": null,
     "email": "limit9610@icloud.com",
     "image": null,
     "works": null,
@@ -1861,6 +2047,8 @@
   },
   {
     "id": 97,
+    "pt": null,
+    "bk": null,
     "email": "yu.39393939@icloud.com",
     "image": null,
     "works": null,
@@ -1881,6 +2069,8 @@
   },
   {
     "id": 98,
+    "pt": null,
+    "bk": null,
     "email": "fugatattooshop@forest.ocn.ne.jp",
     "image": null,
     "works": null,
@@ -1901,6 +2091,8 @@
   },
   {
     "id": 99,
+    "pt": null,
+    "bk": null,
     "email": "mail@horishige3.com",
     "image": null,
     "works": null,
@@ -1921,6 +2113,8 @@
   },
   {
     "id": 100,
+    "pt": null,
+    "bk": null,
     "email": "horihiro.tattoo5963@gmail.com",
     "image": null,
     "works": 3,
@@ -1941,6 +2135,8 @@
   },
   {
     "id": 101,
+    "pt": null,
+    "bk": null,
     "email": "kozychallenger1973@yahoo.co.jp",
     "image": null,
     "works": null,
@@ -1961,6 +2157,8 @@
   },
   {
     "id": 102,
+    "pt": null,
+    "bk": null,
     "email": "ibirujyoluna@gmail.com",
     "image": true,
     "works": 3,
@@ -1981,6 +2179,8 @@
   },
   {
     "id": 103,
+    "pt": null,
+    "bk": null,
     "email": "god.speed.818@gmail.com",
     "image": null,
     "works": null,
@@ -2001,6 +2201,8 @@
   },
   {
     "id": 104,
+    "pt": null,
+    "bk": null,
     "email": "zen0701@ymobile.ne.jp",
     "image": null,
     "works": null,
@@ -2021,6 +2223,8 @@
   },
   {
     "id": 105,
+    "pt": null,
+    "bk": null,
     "email": "wakeup.tattoo.phuket@gmail.com",
     "image": true,
     "works": 3,
@@ -2041,6 +2245,8 @@
   },
   {
     "id": 106,
+    "pt": null,
+    "bk": null,
     "email": "hk-zion-05@softbank.ne.jp",
     "image": null,
     "works": null,
@@ -2061,6 +2267,8 @@
   },
   {
     "id": 107,
+    "pt": null,
+    "bk": null,
     "email": "classicworkstudio@gmail.com",
     "image": true,
     "works": 3,
@@ -2081,6 +2289,8 @@
   },
   {
     "id": 108,
+    "pt": null,
+    "bk": null,
     "email": "aaattukiki@gmail.com",
     "image": null,
     "works": null,
@@ -2101,6 +2311,8 @@
   },
   {
     "id": 109,
+    "pt": null,
+    "bk": null,
     "email": "sauce.ink.tokyo@gmail.com",
     "image": null,
     "works": null,
@@ -2121,6 +2333,8 @@
   },
   {
     "id": 110,
+    "pt": null,
+    "bk": null,
     "email": "info@ninestatedesign.jp",
     "image": null,
     "works": null,
@@ -2141,6 +2355,8 @@
   },
   {
     "id": 111,
+    "pt": null,
+    "bk": null,
     "email": "info@pineneedletattoo.com",
     "image": null,
     "works": null,
@@ -2161,6 +2377,8 @@
   },
   {
     "id": 112,
+    "pt": null,
+    "bk": null,
     "email": "mountainhightattooworks@gmail.com",
     "image": null,
     "works": null,
@@ -2181,6 +2399,8 @@
   },
   {
     "id": 113,
+    "pt": null,
+    "bk": null,
     "email": "info@tribaltattoo.jp",
     "image": true,
     "works": 3,
@@ -2201,6 +2421,8 @@
   },
   {
     "id": 114,
+    "pt": null,
+    "bk": null,
     "email": "chiba-horinao@i.softbank.jp",
     "image": null,
     "works": null,
@@ -2221,6 +2443,8 @@
   },
   {
     "id": 115,
+    "pt": null,
+    "bk": null,
     "email": "nn.20.m@docomo.ne.jp",
     "image": null,
     "works": null,
@@ -2241,6 +2465,8 @@
   },
   {
     "id": 116,
+    "pt": null,
+    "bk": null,
     "email": "info@inkedcat.jp",
     "image": null,
     "works": null,
@@ -2261,6 +2487,8 @@
   },
   {
     "id": 117,
+    "pt": null,
+    "bk": null,
     "email": "linkin5514@icloud.com",
     "image": null,
     "works": null,
@@ -2281,6 +2509,8 @@
   },
   {
     "id": 118,
+    "pt": null,
+    "bk": null,
     "email": "evoink.39@gmail.com",
     "image": null,
     "works": null,
@@ -2301,6 +2531,8 @@
   },
   {
     "id": 119,
+    "pt": null,
+    "bk": null,
     "email": "third.home.tattoo@gmail.com",
     "image": true,
     "works": 3,
@@ -2321,6 +2553,8 @@
   },
   {
     "id": 120,
+    "pt": null,
+    "bk": null,
     "email": "eile94d.r@gmail.com",
     "image": null,
     "works": null,
@@ -2341,6 +2575,8 @@
   },
   {
     "id": 121,
+    "pt": null,
+    "bk": null,
     "email": "gentleinktattooshop@gmail.com",
     "image": true,
     "works": 3,
@@ -2361,6 +2597,8 @@
   },
   {
     "id": 122,
+    "pt": null,
+    "bk": null,
     "email": "shou1.0818@icloud.com",
     "image": null,
     "works": null,
@@ -2381,6 +2619,8 @@
   },
   {
     "id": 123,
+    "pt": null,
+    "bk": null,
     "email": "niihamahorihaku@icloud.com",
     "image": null,
     "works": null,
@@ -2401,6 +2641,8 @@
   },
   {
     "id": 124,
+    "pt": null,
+    "bk": null,
     "email": "nikotamaink@gmail.com",
     "image": true,
     "works": 3,
@@ -2421,6 +2663,8 @@
   },
   {
     "id": 125,
+    "pt": null,
+    "bk": null,
     "email": "mad-tattoo.johnny@hyper.ocn.ne.jp",
     "image": true,
     "works": 3,
@@ -2441,6 +2685,8 @@
   },
   {
     "id": 126,
+    "pt": null,
+    "bk": null,
     "email": "garageclimb@i.softbank.jp",
     "image": true,
     "works": 3,
@@ -2461,6 +2707,8 @@
   },
   {
     "id": 128,
+    "pt": null,
+    "bk": null,
     "email": "benten.tattoo@gmail.com",
     "image": null,
     "works": null,
@@ -2481,6 +2729,8 @@
   },
   {
     "id": 129,
+    "pt": null,
+    "bk": null,
     "email": "info@srs-studio.com",
     "image": null,
     "works": null,
@@ -2501,6 +2751,8 @@
   },
   {
     "id": 130,
+    "pt": null,
+    "bk": null,
     "email": "cross.in.the@gmail.com",
     "image": null,
     "works": null,
@@ -2521,6 +2773,8 @@
   },
   {
     "id": 131,
+    "pt": null,
+    "bk": null,
     "email": "tattooistkawai@gmail.com",
     "image": null,
     "works": null,
@@ -2541,6 +2795,8 @@
   },
   {
     "id": 132,
+    "pt": null,
+    "bk": null,
     "email": "chunktattoo@gmail.com",
     "image": true,
     "works": 3,
@@ -2561,6 +2817,8 @@
   },
   {
     "id": 133,
+    "pt": null,
+    "bk": null,
     "email": "horisyaraku@hotmail.co.jp",
     "image": null,
     "works": null,
@@ -2581,6 +2839,8 @@
   },
   {
     "id": 134,
+    "pt": null,
+    "bk": null,
     "email": "illusionp0505@gmail.com",
     "image": true,
     "works": 3,
@@ -2601,6 +2861,8 @@
   },
   {
     "id": 135,
+    "pt": null,
+    "bk": null,
     "email": "ueno1@tattoo-hm.com",
     "image": null,
     "works": null,
@@ -2621,6 +2883,8 @@
   },
   {
     "id": 136,
+    "pt": null,
+    "bk": null,
     "email": "malicia.tattoo@i.softbank.jp",
     "image": null,
     "works": null,
@@ -2641,6 +2905,8 @@
   },
   {
     "id": 137,
+    "pt": null,
+    "bk": null,
     "email": "9730181@gmail.com",
     "image": true,
     "works": 3,
@@ -2661,6 +2927,8 @@
   },
   {
     "id": 138,
+    "pt": null,
+    "bk": null,
     "email": "sndirezumi@gmail.com",
     "image": null,
     "works": null,
@@ -2681,6 +2949,8 @@
   },
   {
     "id": 139,
+    "pt": null,
+    "bk": null,
     "email": "raiuntattoo@gmail.com",
     "image": null,
     "works": null,
@@ -2701,6 +2971,8 @@
   },
   {
     "id": 140,
+    "pt": null,
+    "bk": null,
     "email": "tattoo.hakatahoriten@gmail.com",
     "image": null,
     "works": null,
@@ -2721,6 +2993,8 @@
   },
   {
     "id": 141,
+    "pt": null,
+    "bk": null,
     "email": "shushinneedle5@gmail.com",
     "image": null,
     "works": null,
@@ -2741,6 +3015,8 @@
   },
   {
     "id": 142,
+    "pt": null,
+    "bk": null,
     "email": "ha_ya_to_1112@icloud.com",
     "image": null,
     "works": null,
@@ -2761,6 +3037,8 @@
   },
   {
     "id": 143,
+    "pt": null,
+    "bk": null,
     "email": "sa19811016@gmail.com",
     "image": null,
     "works": null,
@@ -2781,6 +3059,8 @@
   },
   {
     "id": 144,
+    "pt": null,
+    "bk": null,
     "email": "horinaka.2005@gmail.com",
     "image": true,
     "works": 3,
@@ -2801,6 +3081,8 @@
   },
   {
     "id": 145,
+    "pt": null,
+    "bk": null,
     "email": "horioh@hotmail.co.jp",
     "image": true,
     "works": 3,
@@ -2821,6 +3103,8 @@
   },
   {
     "id": 146,
+    "pt": null,
+    "bk": null,
     "email": "horimiwa.isbs@gmail.com",
     "image": null,
     "works": null,
@@ -2841,6 +3125,8 @@
   },
   {
     "id": 147,
+    "pt": null,
+    "bk": null,
     "email": "tat2.ebisu@icloud.com",
     "image": null,
     "works": null,
@@ -2861,6 +3147,8 @@
   },
   {
     "id": 148,
+    "pt": null,
+    "bk": null,
     "email": "kaizok1096@gmail.com",
     "image": true,
     "works": 3,
@@ -2881,6 +3169,8 @@
   },
   {
     "id": 149,
+    "pt": null,
+    "bk": null,
     "email": "maurex.tat@gmail.com",
     "image": null,
     "works": null,
@@ -2901,6 +3191,8 @@
   },
   {
     "id": 150,
+    "pt": true,
+    "bk": null,
     "email": "estooneta28943@gmail.com",
     "image": true,
     "works": 5,
@@ -2921,6 +3213,8 @@
   },
   {
     "id": 151,
+    "pt": null,
+    "bk": null,
     "email": "tattooheaven.mkb@gmail.com",
     "image": null,
     "works": null,
@@ -2941,6 +3235,8 @@
   },
   {
     "id": 152,
+    "pt": null,
+    "bk": null,
     "email": "horisei1.com@gmail.com",
     "image": null,
     "works": null,
@@ -2961,6 +3257,8 @@
   },
   {
     "id": 153,
+    "pt": null,
+    "bk": null,
     "email": "horisei1.com@gmail.com",
     "image": null,
     "works": null,
@@ -2981,6 +3279,8 @@
   },
   {
     "id": 154,
+    "pt": null,
+    "bk": null,
     "email": "horirin.irezumi@gmail.com",
     "image": null,
     "works": null,
@@ -3001,6 +3301,8 @@
   },
   {
     "id": 155,
+    "pt": null,
+    "bk": null,
     "email": "13ymst2005@gmail.com",
     "image": null,
     "works": null,
@@ -3021,6 +3323,8 @@
   },
   {
     "id": 156,
+    "pt": null,
+    "bk": null,
     "email": "ink.high.tattoo@gmail.com",
     "image": null,
     "works": null,
@@ -3041,6 +3345,8 @@
   },
   {
     "id": 157,
+    "pt": null,
+    "bk": null,
     "email": "counuck@softbank.ne.jp",
     "image": null,
     "works": null,
@@ -3061,6 +3367,8 @@
   },
   {
     "id": 158,
+    "pt": null,
+    "bk": null,
     "email": "koda93aaa@gmail.com",
     "image": null,
     "works": null,
@@ -3081,6 +3389,8 @@
   },
   {
     "id": 159,
+    "pt": null,
+    "bk": null,
     "email": "mcrow666@gmail.com",
     "image": null,
     "works": null,
@@ -3101,6 +3411,8 @@
   },
   {
     "id": 160,
+    "pt": null,
+    "bk": null,
     "email": "info@yonarte.com",
     "image": null,
     "works": null,
@@ -3121,6 +3433,8 @@
   },
   {
     "id": 161,
+    "pt": null,
+    "bk": null,
     "email": "kyout.tsujibori@ezweb.ne.jp",
     "image": null,
     "works": null,
@@ -3141,6 +3455,8 @@
   },
   {
     "id": 162,
+    "pt": null,
+    "bk": null,
     "email": "info@black-moon-tattoo.com",
     "image": true,
     "works": 3,
@@ -3161,9 +3477,11 @@
   },
   {
     "id": 163,
+    "pt": null,
+    "bk": null,
     "email": "hotei13tattoo@yahoo.co.jp",
-    "image": null,
-    "works": null,
+    "image": true,
+    "works": 3,
     "name": "HOTEI13TATTOO",
     "nameKana": "ホテイトレセタトゥー",
     "artist": "HOTEI13",
@@ -3177,10 +3495,12 @@
     "prefectures": "福島県",
     "address": "いわき市平大町27 0246BLD-1F",
     "phone": "09058353637",
-    "description": ""
+    "description": "福島県いわき市のタトゥースタジオ。\n日本全国はもちろん、アメリカやメキシコでも活躍中。\nブラックアンドグレーのリアリスティックがメインですが、希望があればカラーのリアリスティックに対応。他、和彫等のオーダーも受け付けております。\n完全個室プライベートスタジオ。"
   },
   {
     "id": 164,
+    "pt": null,
+    "bk": null,
     "email": "jcminktattoo@gmail.com",
     "image": null,
     "works": null,
@@ -3201,6 +3521,8 @@
   },
   {
     "id": 165,
+    "pt": null,
+    "bk": null,
     "email": "bloominginktattoo@gmail.com",
     "image": null,
     "works": null,
@@ -3221,6 +3543,8 @@
   },
   {
     "id": 166,
+    "pt": null,
+    "bk": null,
     "email": "goatrush.tattoo@gmail.com",
     "image": true,
     "works": 3,
@@ -3241,6 +3565,8 @@
   },
   {
     "id": 167,
+    "pt": null,
+    "bk": null,
     "email": "trickyfrog-kaede@ezweb.ne.jp",
     "image": null,
     "works": null,
@@ -3261,6 +3587,8 @@
   },
   {
     "id": 168,
+    "pt": null,
+    "bk": null,
     "email": "info@tag-tattoo.com",
     "image": null,
     "works": null,
@@ -3281,6 +3609,8 @@
   },
   {
     "id": 169,
+    "pt": null,
+    "bk": null,
     "email": "riottattoo2002@gmail.com",
     "image": null,
     "works": null,
@@ -3301,6 +3631,8 @@
   },
   {
     "id": 170,
+    "pt": null,
+    "bk": null,
     "email": "mirokutattoo@icloud.com",
     "image": null,
     "works": null,
@@ -3321,6 +3653,8 @@
   },
   {
     "id": 171,
+    "pt": null,
+    "bk": null,
     "email": "mkmkmk999vvv@gmail.com",
     "image": null,
     "works": null,
@@ -3341,6 +3675,8 @@
   },
   {
     "id": 172,
+    "pt": null,
+    "bk": null,
     "email": "kentotat@i.softbank.jp",
     "image": null,
     "works": null,
@@ -3361,6 +3697,8 @@
   },
   {
     "id": 173,
+    "pt": null,
+    "bk": true,
     "email": "info@goodtimesink.jp",
     "image": true,
     "works": 3,
@@ -3381,6 +3719,8 @@
   },
   {
     "id": 174,
+    "pt": null,
+    "bk": null,
     "email": "spike-heart@outlook.jp",
     "image": null,
     "works": null,
@@ -3401,6 +3741,8 @@
   },
   {
     "id": 175,
+    "pt": null,
+    "bk": null,
     "email": "kokoro.ink.tattoo@gmail.com",
     "image": true,
     "works": 3,
@@ -3421,6 +3763,8 @@
   },
   {
     "id": 176,
+    "pt": null,
+    "bk": null,
     "email": "flowersink1111@gmail.com",
     "image": null,
     "works": null,
@@ -3441,6 +3785,8 @@
   },
   {
     "id": 177,
+    "pt": null,
+    "bk": null,
     "email": "cobraarttattoo@gmail.com",
     "image": null,
     "works": null,
@@ -3461,6 +3807,8 @@
   },
   {
     "id": 178,
+    "pt": null,
+    "bk": null,
     "email": "bohemiatattoostudio@gmail.com",
     "image": null,
     "works": null,
@@ -3481,6 +3829,8 @@
   },
   {
     "id": 179,
+    "pt": null,
+    "bk": null,
     "email": "famous.s.a.s@docomo.ne.jp",
     "image": null,
     "works": null,
@@ -3501,6 +3851,8 @@
   },
   {
     "id": 180,
+    "pt": null,
+    "bk": null,
     "email": "info@trickboxtattoo.com",
     "image": null,
     "works": null,
@@ -3521,6 +3873,8 @@
   },
   {
     "id": 181,
+    "pt": null,
+    "bk": null,
     "email": "info.mikina@gmail.com",
     "image": null,
     "works": null,
@@ -3541,6 +3895,8 @@
   },
   {
     "id": 182,
+    "pt": null,
+    "bk": null,
     "email": "bunshin1023@gmail.com",
     "image": null,
     "works": null,
@@ -3561,6 +3917,8 @@
   },
   {
     "id": 183,
+    "pt": null,
+    "bk": null,
     "email": "flateeflat@gmail.com",
     "image": null,
     "works": null,
@@ -3581,6 +3939,8 @@
   },
   {
     "id": 184,
+    "pt": null,
+    "bk": null,
     "email": "bunshin1023@gmail.com",
     "image": null,
     "works": null,
@@ -3601,6 +3961,8 @@
   },
   {
     "id": 185,
+    "pt": null,
+    "bk": null,
     "email": "chamber36@kkf.biglobe.ne.jp",
     "image": null,
     "works": null,
@@ -3621,6 +3983,8 @@
   },
   {
     "id": 186,
+    "pt": null,
+    "bk": null,
     "email": "tattoo@stroker.jp",
     "image": null,
     "works": null,
@@ -3641,6 +4005,8 @@
   },
   {
     "id": 187,
+    "pt": null,
+    "bk": null,
     "email": "k-tattoo@i.softbank.jp",
     "image": null,
     "works": null,
@@ -3661,6 +4027,8 @@
   },
   {
     "id": 188,
+    "pt": null,
+    "bk": null,
     "email": "tattoom@stroker.jp",
     "image": null,
     "works": null,
@@ -3681,6 +4049,8 @@
   },
   {
     "id": 189,
+    "pt": null,
+    "bk": null,
     "email": "gramtattoo0000@gmail.com",
     "image": true,
     "works": 3,
@@ -3701,6 +4071,8 @@
   },
   {
     "id": 190,
+    "pt": null,
+    "bk": null,
     "email": "janaybaade@gmail.com",
     "image": null,
     "works": null,
@@ -3721,6 +4093,8 @@
   },
   {
     "id": 191,
+    "pt": null,
+    "bk": null,
     "email": "horikou.tattoo@i.softbank.jp",
     "image": null,
     "works": null,
@@ -3741,6 +4115,8 @@
   },
   {
     "id": 192,
+    "pt": null,
+    "bk": null,
     "email": "respect.me.com@gmail.com",
     "image": null,
     "works": null,
@@ -3761,6 +4137,8 @@
   },
   {
     "id": 193,
+    "pt": null,
+    "bk": null,
     "email": "masakazu24@softbank.ne.jp",
     "image": null,
     "works": null,
@@ -3781,6 +4159,8 @@
   },
   {
     "id": 194,
+    "pt": null,
+    "bk": null,
     "email": "twfg.ta2@gmail.com",
     "image": null,
     "works": null,
@@ -3801,6 +4181,8 @@
   },
   {
     "id": 195,
+    "pt": null,
+    "bk": null,
     "email": "info@go-joker.com",
     "image": null,
     "works": null,
@@ -3821,6 +4203,8 @@
   },
   {
     "id": 196,
+    "pt": null,
+    "bk": null,
     "email": "mukieabetattoo@gmail.com",
     "image": true,
     "works": 3,
@@ -3841,6 +4225,8 @@
   },
   {
     "id": 197,
+    "pt": null,
+    "bk": null,
     "email": "lunar_orbit@icloud.com",
     "image": null,
     "works": null,
@@ -3861,6 +4247,8 @@
   },
   {
     "id": 198,
+    "pt": null,
+    "bk": null,
     "email": "info@spintattoo.com",
     "image": null,
     "works": null,
@@ -3881,6 +4269,8 @@
   },
   {
     "id": 199,
+    "pt": null,
+    "bk": null,
     "email": "pisara.indigo@gmail.com",
     "image": true,
     "works": 3,
@@ -3901,6 +4291,8 @@
   },
   {
     "id": 200,
+    "pt": null,
+    "bk": null,
     "email": "horiei78tattoo@gmail.com",
     "image": true,
     "works": 3,
@@ -3921,6 +4313,8 @@
   },
   {
     "id": 201,
+    "pt": null,
+    "bk": null,
     "email": "info@horiharu.com",
     "image": null,
     "works": null,
@@ -3941,6 +4335,8 @@
   },
   {
     "id": 202,
+    "pt": null,
+    "bk": null,
     "email": "xitsugug@gmail.com",
     "image": null,
     "works": null,
@@ -3961,6 +4357,8 @@
   },
   {
     "id": 203,
+    "pt": null,
+    "bk": null,
     "email": "pd-609@i.softbank.jp",
     "image": null,
     "works": null,
@@ -3981,6 +4379,8 @@
   },
   {
     "id": 204,
+    "pt": null,
+    "bk": null,
     "email": "horisaki.11.4.18@docomo.ne.jp",
     "image": true,
     "works": 3,
@@ -4001,6 +4401,8 @@
   },
   {
     "id": 205,
+    "pt": null,
+    "bk": null,
     "email": "feelin33tattoo@gmail.com",
     "image": null,
     "works": null,
@@ -4021,6 +4423,8 @@
   },
   {
     "id": 206,
+    "pt": null,
+    "bk": null,
     "email": "bongtattoos@gmail.com",
     "image": true,
     "works": 3,
@@ -4041,6 +4445,8 @@
   },
   {
     "id": 207,
+    "pt": null,
+    "bk": null,
     "email": "nami_319@yahoo.co.jp",
     "image": null,
     "works": null,
@@ -4061,6 +4467,8 @@
   },
   {
     "id": 208,
+    "pt": null,
+    "bk": null,
     "email": "tattoo.the.life.tomo@gmail.com",
     "image": true,
     "works": 3,
@@ -4081,6 +4489,8 @@
   },
   {
     "id": 209,
+    "pt": null,
+    "bk": null,
     "email": "ore_098hiroki@icloud.com",
     "image": null,
     "works": null,
@@ -4101,6 +4511,8 @@
   },
   {
     "id": 210,
+    "pt": null,
+    "bk": null,
     "email": "info@southbayjapan.com",
     "image": null,
     "works": null,
@@ -4121,6 +4533,8 @@
   },
   {
     "id": 211,
+    "pt": null,
+    "bk": null,
     "email": "info@red-bunny.com",
     "image": null,
     "works": null,
@@ -4141,6 +4555,8 @@
   },
   {
     "id": 212,
+    "pt": null,
+    "bk": null,
     "email": "official@horisui.net",
     "image": null,
     "works": null,
@@ -4161,6 +4577,8 @@
   },
   {
     "id": 213,
+    "pt": null,
+    "bk": null,
     "email": "akane1011bap@icloud.com",
     "image": null,
     "works": null,
@@ -4181,6 +4599,8 @@
   },
   {
     "id": 214,
+    "pt": null,
+    "bk": null,
     "email": "horitake@ms-tattoo.com",
     "image": true,
     "works": 3,
@@ -4201,6 +4621,8 @@
   },
   {
     "id": 215,
+    "pt": null,
+    "bk": null,
     "email": "masami1023@i.softbank.jp",
     "image": null,
     "works": null,
@@ -4221,6 +4643,8 @@
   },
   {
     "id": 216,
+    "pt": null,
+    "bk": null,
     "email": "info@finelinetattoo.jp",
     "image": null,
     "works": null,
@@ -4241,6 +4665,8 @@
   },
   {
     "id": 217,
+    "pt": null,
+    "bk": null,
     "email": "ninjabeatz1989@icoud.com",
     "image": null,
     "works": null,
@@ -4261,6 +4687,8 @@
   },
   {
     "id": 218,
+    "pt": null,
+    "bk": null,
     "email": "b_n_t_horigen@yahoo.co.jp",
     "image": null,
     "works": null,
@@ -4281,6 +4709,8 @@
   },
   {
     "id": 219,
+    "pt": null,
+    "bk": null,
     "email": "asianred@ezweb.ne.jp",
     "image": null,
     "works": null,
@@ -4301,6 +4731,8 @@
   },
   {
     "id": 220,
+    "pt": null,
+    "bk": null,
     "email": "h2pierre@outlook.com",
     "image": null,
     "works": null,
@@ -4321,6 +4753,8 @@
   },
   {
     "id": 221,
+    "pt": null,
+    "bk": null,
     "email": "tattoo.act@gmail.com",
     "image": null,
     "works": null,
@@ -4341,6 +4775,8 @@
   },
   {
     "id": 222,
+    "pt": null,
+    "bk": null,
     "email": "a-s-ce@i.softbank.jp",
     "image": null,
     "works": null,
@@ -4361,8 +4797,10 @@
   },
   {
     "id": 223,
+    "pt": null,
+    "bk": true,
     "email": "roca.187.gmt@docomo.ne.jp",
-    "image": null,
+    "image": true,
     "works": null,
     "name": "Naminoko Crane Tattoo",
     "nameKana": "ナミノコクレインタトゥー",
@@ -4381,6 +4819,8 @@
   },
   {
     "id": 224,
+    "pt": null,
+    "bk": null,
     "email": "studiomadcaffe@gmail.com",
     "image": null,
     "works": null,
@@ -4401,6 +4841,8 @@
   },
   {
     "id": 225,
+    "pt": null,
+    "bk": null,
     "email": "gaku.akiho@gmail.com",
     "image": null,
     "works": null,
@@ -4421,6 +4863,8 @@
   },
   {
     "id": 226,
+    "pt": null,
+    "bk": null,
     "email": "s55@ezweb.ne.jp",
     "image": true,
     "works": 3,
@@ -4441,6 +4885,8 @@
   },
   {
     "id": 227,
+    "pt": null,
+    "bk": null,
     "email": "interspec0103@gmail.com",
     "image": null,
     "works": null,
@@ -4461,6 +4907,8 @@
   },
   {
     "id": 228,
+    "pt": null,
+    "bk": null,
     "email": "fxr81pacho@yahoo.co.jp",
     "image": null,
     "works": null,
@@ -4481,6 +4929,8 @@
   },
   {
     "id": 229,
+    "pt": null,
+    "bk": null,
     "email": "scabtattoostudio@gmail.com",
     "image": null,
     "works": null,
@@ -4501,6 +4951,8 @@
   },
   {
     "id": 230,
+    "pt": null,
+    "bk": null,
     "email": "kamikazeraimon@gmail.com",
     "image": null,
     "works": null,
@@ -4521,6 +4973,8 @@
   },
   {
     "id": 231,
+    "pt": null,
+    "bk": null,
     "email": "yuuta6060_6060@icloud.com",
     "image": null,
     "works": null,
@@ -4541,6 +4995,8 @@
   },
   {
     "id": 232,
+    "pt": null,
+    "bk": null,
     "email": "horirei.tattoo@gmail.com",
     "image": null,
     "works": null,
@@ -4561,6 +5017,8 @@
   },
   {
     "id": 233,
+    "pt": null,
+    "bk": null,
     "email": "azu.oiloncanvas@icloud.com",
     "image": null,
     "works": null,
@@ -4581,6 +5039,8 @@
   },
   {
     "id": 234,
+    "pt": null,
+    "bk": null,
     "email": "akio-tattoo@peace.ocn.ne.jp",
     "image": null,
     "works": null,
@@ -4601,6 +5061,8 @@
   },
   {
     "id": 235,
+    "pt": null,
+    "bk": null,
     "email": "vo.2.-19-@ezweb.ne.jp",
     "image": null,
     "works": null,
@@ -4621,6 +5083,8 @@
   },
   {
     "id": 236,
+    "pt": null,
+    "bk": null,
     "email": "horichiyo.muu@icloud.com",
     "image": null,
     "works": null,
@@ -4641,6 +5105,8 @@
   },
   {
     "id": 237,
+    "pt": null,
+    "bk": null,
     "email": "s.d-n@hotmail.com",
     "image": null,
     "works": null,
@@ -4661,6 +5127,8 @@
   },
   {
     "id": 238,
+    "pt": null,
+    "bk": null,
     "email": "zen08054667770@gmail.com",
     "image": null,
     "works": null,
@@ -4681,6 +5149,8 @@
   },
   {
     "id": 239,
+    "pt": null,
+    "bk": null,
     "email": "11tatsuki07@gmail.com",
     "image": null,
     "works": null,
@@ -4701,6 +5171,8 @@
   },
   {
     "id": 240,
+    "pt": null,
+    "bk": null,
     "email": "classicink1023@gmail.com",
     "image": null,
     "works": null,
@@ -4721,6 +5193,8 @@
   },
   {
     "id": 241,
+    "pt": null,
+    "bk": null,
     "email": "ktaoriginal816@gmail.com",
     "image": null,
     "works": null,
@@ -4741,6 +5215,8 @@
   },
   {
     "id": 242,
+    "pt": null,
+    "bk": null,
     "email": "ioriboriichimon.2003@gmail.com",
     "image": null,
     "works": null,
@@ -4761,6 +5237,8 @@
   },
   {
     "id": 243,
+    "pt": null,
+    "bk": null,
     "email": "admin@freestyle-tattoo.jp",
     "image": true,
     "works": 3,
@@ -4781,6 +5259,8 @@
   },
   {
     "id": 244,
+    "pt": null,
+    "bk": null,
     "email": "kawazuya-tattoo@hotmail.co.jp",
     "image": null,
     "works": null,
@@ -4801,6 +5281,8 @@
   },
   {
     "id": 245,
+    "pt": null,
+    "bk": null,
     "email": "exiliumink@gmail.com",
     "image": null,
     "works": null,
@@ -4821,6 +5303,8 @@
   },
   {
     "id": 246,
+    "pt": null,
+    "bk": null,
     "email": "ysinktattoo@gmail.com",
     "image": null,
     "works": null,
@@ -4841,6 +5325,8 @@
   },
   {
     "id": 247,
+    "pt": null,
+    "bk": null,
     "email": "gkarakarasu@gmail.com",
     "image": null,
     "works": null,
@@ -4861,6 +5347,8 @@
   },
   {
     "id": 248,
+    "pt": null,
+    "bk": null,
     "email": "mayakasi.ink.studio@docomo.ne.jp",
     "image": null,
     "works": null,
@@ -4881,6 +5369,8 @@
   },
   {
     "id": 249,
+    "pt": null,
+    "bk": null,
     "email": "oitahorimitu@gmail.com",
     "image": null,
     "works": null,
@@ -4901,6 +5391,8 @@
   },
   {
     "id": 250,
+    "pt": null,
+    "bk": null,
     "email": "hohoya483@docomo.ne.jp",
     "image": null,
     "works": null,
@@ -4921,6 +5413,8 @@
   },
   {
     "id": 251,
+    "pt": null,
+    "bk": null,
     "email": "tattoo@edyartstudio.com",
     "image": null,
     "works": null,
@@ -4941,6 +5435,8 @@
   },
   {
     "id": 252,
+    "pt": null,
+    "bk": null,
     "email": "kanazawa@edyartstudio.com",
     "image": null,
     "works": null,
@@ -4961,6 +5457,8 @@
   },
   {
     "id": 253,
+    "pt": null,
+    "bk": null,
     "email": "morpho@edyartstudio.com",
     "image": null,
     "works": null,
@@ -4981,6 +5479,8 @@
   },
   {
     "id": 254,
+    "pt": null,
+    "bk": null,
     "email": "moeri30108@gmail.com",
     "image": null,
     "works": null,
@@ -5001,6 +5501,8 @@
   },
   {
     "id": 255,
+    "pt": null,
+    "bk": null,
     "email": "marm.m1214@docomo.ne.jp",
     "image": true,
     "works": 3,
@@ -5021,6 +5523,8 @@
   },
   {
     "id": 256,
+    "pt": null,
+    "bk": null,
     "email": "seanon4@softbank.ne.jp",
     "image": null,
     "works": null,
@@ -5041,6 +5545,8 @@
   },
   {
     "id": 257,
+    "pt": null,
+    "bk": null,
     "email": "contact@ichitattoo.com",
     "image": null,
     "works": null,
@@ -5061,6 +5567,8 @@
   },
   {
     "id": 258,
+    "pt": null,
+    "bk": null,
     "email": "darkmaria12@icloud.com",
     "image": null,
     "works": null,
@@ -5081,6 +5589,8 @@
   },
   {
     "id": 259,
+    "pt": null,
+    "bk": null,
     "email": "swarminktattoo@gmail.com",
     "image": null,
     "works": null,
@@ -5101,6 +5611,8 @@
   },
   {
     "id": 260,
+    "pt": null,
+    "bk": null,
     "email": "tanuking56@yahoo.co.jp",
     "image": null,
     "works": null,
@@ -5121,6 +5633,8 @@
   },
   {
     "id": 261,
+    "pt": null,
+    "bk": null,
     "email": "info@muscat-tattoo.com",
     "image": true,
     "works": null,
@@ -5141,6 +5655,8 @@
   },
   {
     "id": 262,
+    "pt": null,
+    "bk": null,
     "email": "reikotakagi@mac.com",
     "image": null,
     "works": null,
@@ -5161,6 +5677,8 @@
   },
   {
     "id": 263,
+    "pt": null,
+    "bk": null,
     "email": "hasu_ryu244@yahoo.co.jp",
     "image": null,
     "works": null,
@@ -5181,6 +5699,8 @@
   },
   {
     "id": 264,
+    "pt": null,
+    "bk": null,
     "email": "arika.phenome@gmail.com",
     "image": null,
     "works": null,
@@ -5201,6 +5721,8 @@
   },
   {
     "id": 265,
+    "pt": null,
+    "bk": null,
     "email": "so.f.u.n.k.933@gmail.com",
     "image": true,
     "works": 2,
@@ -5221,6 +5743,8 @@
   },
   {
     "id": 266,
+    "pt": null,
+    "bk": null,
     "email": "yajiko.0422@gmail.com",
     "image": null,
     "works": null,
@@ -5241,6 +5765,8 @@
   },
   {
     "id": 267,
+    "pt": null,
+    "bk": null,
     "email": "simplest.of2@gmail.com",
     "image": true,
     "works": 3,
@@ -5261,6 +5787,8 @@
   },
   {
     "id": 268,
+    "pt": null,
+    "bk": null,
     "email": "tattoo@inscribe.jp",
     "image": null,
     "works": null,
@@ -5281,6 +5809,8 @@
   },
   {
     "id": 269,
+    "pt": null,
+    "bk": null,
     "email": "jitterbug5016@yahoo.co.jp",
     "image": null,
     "works": null,
@@ -5301,6 +5831,8 @@
   },
   {
     "id": 270,
+    "pt": null,
+    "bk": null,
     "email": "yukiyama-sentai.gororinjaaaaaa@ezweb.ne.jp",
     "image": null,
     "works": null,
@@ -5321,6 +5853,8 @@
   },
   {
     "id": 271,
+    "pt": null,
+    "bk": null,
     "email": "botan.66.7.9@icloud.com",
     "image": null,
     "works": null,
@@ -5341,6 +5875,8 @@
   },
   {
     "id": 272,
+    "pt": null,
+    "bk": null,
     "email": "macdaddytattoo31@gmail.com",
     "image": null,
     "works": null,
@@ -5361,6 +5897,8 @@
   },
   {
     "id": 273,
+    "pt": null,
+    "bk": null,
     "email": "daikoku.5100@icloud.com",
     "image": null,
     "works": null,
@@ -5381,6 +5919,8 @@
   },
   {
     "id": 274,
+    "pt": null,
+    "bk": null,
     "email": "horisho510@softbank.ne.jp",
     "image": null,
     "works": null,
@@ -5401,6 +5941,8 @@
   },
   {
     "id": 275,
+    "pt": null,
+    "bk": null,
     "email": "horichou@ymail.ne.jp",
     "image": null,
     "works": null,
@@ -5421,6 +5963,8 @@
   },
   {
     "id": 276,
+    "pt": null,
+    "bk": null,
     "email": "ysktattoo@gmail.com",
     "image": true,
     "works": 3,
@@ -5441,6 +5985,8 @@
   },
   {
     "id": 277,
+    "pt": null,
+    "bk": null,
     "email": "misaotattoo@yahoo.co.jp",
     "image": true,
     "works": 3,
@@ -5461,6 +6007,8 @@
   },
   {
     "id": 278,
+    "pt": null,
+    "bk": null,
     "email": "tattoo@horisana.net",
     "image": null,
     "works": null,
@@ -5481,6 +6029,8 @@
   },
   {
     "id": 279,
+    "pt": null,
+    "bk": null,
     "email": "shinzo.tat2works@gmail.com",
     "image": null,
     "works": null,
@@ -5501,6 +6051,8 @@
   },
   {
     "id": 280,
+    "pt": null,
+    "bk": null,
     "email": "tattoo@inscribe.jp",
     "image": null,
     "works": null,
@@ -5521,6 +6073,8 @@
   },
   {
     "id": 281,
+    "pt": null,
+    "bk": null,
     "email": "tattoo@inscribe.jp",
     "image": null,
     "works": null,
@@ -5541,6 +6095,8 @@
   },
   {
     "id": 282,
+    "pt": true,
+    "bk": null,
     "email": "ivoly078@gmail.com",
     "image": true,
     "works": 5,
@@ -5561,6 +6117,8 @@
   },
   {
     "id": 283,
+    "pt": null,
+    "bk": null,
     "email": "Horifuna_0322@icloud.com",
     "image": null,
     "works": null,
@@ -5581,6 +6139,8 @@
   },
   {
     "id": 284,
+    "pt": null,
+    "bk": null,
     "email": "milkbar-3am@i.softbank.jp",
     "image": null,
     "works": null,
@@ -5601,6 +6161,8 @@
   },
   {
     "id": 285,
+    "pt": null,
+    "bk": null,
     "email": "flat.tattooart.sub@gmail.com",
     "image": null,
     "works": null,
@@ -5621,6 +6183,8 @@
   },
   {
     "id": 286,
+    "pt": true,
+    "bk": null,
     "email": "shodaihoriai@gmail.com",
     "image": true,
     "works": 5,
@@ -5638,5 +6202,115 @@
     "address": "新宿区大久保1-15-17 サンハイム大久保503号",
     "phone": "09042083494",
     "description": "伝統的な和彫りの図柄を手がける彫師です。【JAPANESE TATTOOER PRO TEAM所属】"
+  },
+  {
+    "id": 287,
+    "pt": null,
+    "bk": null,
+    "email": "ykong0820@gmail.com",
+    "image": null,
+    "works": null,
+    "name": "彫征",
+    "nameKana": "ホリマサ",
+    "artist": "",
+    "artistKana": "",
+    "url": "",
+    "instagram": "",
+    "instagramOther": "",
+    "youtube": "",
+    "twitter": "",
+    "facebook": "",
+    "prefectures": "福岡県",
+    "address": "",
+    "phone": "",
+    "description": ""
+  },
+  {
+    "id": 288,
+    "pt": null,
+    "bk": null,
+    "email": "shootinggallery.tattoo@gmail.com",
+    "image": true,
+    "works": null,
+    "name": "shootin'gallery tattoo",
+    "nameKana": "シューティングギャラリータトゥー",
+    "artist": "",
+    "artistKana": "",
+    "url": "",
+    "instagram": "https://www.instagram.com/shootinggallerytattoo/",
+    "instagramOther": "",
+    "youtube": "",
+    "twitter": "",
+    "facebook": "",
+    "prefectures": "青森県",
+    "address": "三沢市中央町2-11-22",
+    "phone": "0176276388",
+    "description": ""
+  },
+  {
+    "id": 289,
+    "pt": null,
+    "bk": null,
+    "email": "crashbuild.d@gmail.com",
+    "image": null,
+    "works": null,
+    "name": "CRASHBUILD TATTOO",
+    "nameKana": "クラッシュビルド　タトゥー",
+    "artist": "Haskey Wakana Tei 渦千代",
+    "artistKana": "ハスキー　ワカナ　テイ　ウズチヨ",
+    "url": "",
+    "instagram": "https://www.instagram.com/haskey_c",
+    "instagramOther": "",
+    "youtube": "",
+    "twitter": "https://twitter.com/haskey_c",
+    "facebook": "",
+    "prefectures": "大阪",
+    "address": "南堀江 3-3-12",
+    "phone": "",
+    "description": "唯一無二のスタイルを持ったアーティストが所属しているスタジオ。それぞれの\"クセ\"や\"こだわり\"が反映されたデザインを他とは違う感性のお客様に提供し続けます。世界基準のTATTOO STUDIO"
+  },
+  {
+    "id": 290,
+    "pt": null,
+    "bk": null,
+    "email": "rebelta21950@gmail.com",
+    "image": null,
+    "works": null,
+    "name": "REBEL TATTOO",
+    "nameKana": "",
+    "artist": "彫渋",
+    "artistKana": "ホリシブ",
+    "url": "",
+    "instagram": "https://www.instagram.com/rebelta2/",
+    "instagramOther": "",
+    "youtube": "",
+    "twitter": "",
+    "facebook": "",
+    "prefectures": "山口県",
+    "address": "山陽小野田市",
+    "phone": "09079992050",
+    "description": "オールジャンル"
+  },
+  {
+    "id": 291,
+    "pt": null,
+    "bk": null,
+    "email": "bigbirdtattoo@yahoo.co.jp",
+    "image": null,
+    "works": null,
+    "name": "BIGBIRDTATTOO",
+    "nameKana": "ビッグバードタトゥー",
+    "artist": "HIRO",
+    "artistKana": "",
+    "url": "http://bigbirdtattoo.sunnyday.jp/",
+    "instagram": "https://www.instagram.com/bigbirdtattoostudio/",
+    "instagramOther": "",
+    "youtube": "",
+    "twitter": "",
+    "facebook": "",
+    "prefectures": "静岡県",
+    "address": "浜松市中区幸5-11-41",
+    "phone": "0535259120",
+    "description": "静岡県浜松市のタトゥースタジオです。"
   }
 ]
