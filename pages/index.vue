@@ -59,14 +59,17 @@ const prefectures = ref(null)
 const perPage = 12
 const prefecturesList = ['北海道', '青森県', '岩手県', '宮城県', '秋田県', '山形県', '福島県', '茨城県', '栃木県', '群馬県', '埼玉県', '千葉県', '東京都', '神奈川県', '新潟県', '富山県', '石川県', '福井県', '山梨県', '長野県', '岐阜県', '静岡県', '愛知県', '三重県', '滋賀県', '京都府', '大阪府', '兵庫県', '奈良県', '和歌山県', '鳥取県', '島根県', '岡山県', '広島県', '山口県', '徳島県', '香川県', '愛媛県', '高知県', '福岡県', '佐賀県', '長崎県', '熊本県', '大分県', '宮崎県', '鹿児島県', '沖縄県', 'その他']
 
-const promoteShopList = [150, 282, 286]
+// const promoteShopList = [150, 282, 286]
 const { data: shopsAll } = await useFetch('/api/shops')
-const shopWithPromote = shopsAll.value.filter(shop => promoteShopList.includes(shop.id))
-const shopWithImage = shuffle(shopsAll.value.filter(shop => shop.image === true && !promoteShopList.includes(shop.id)))
-const shopTopTen = shuffle([...shopWithPromote, ...shopWithImage.slice(0, 7)])
-const shopWithImageOther = shopWithImage.slice(7, -1)
+const shopPt = shopsAll.value.filter(shop => shop.pt === true)
+const shopBk = shopsAll.value.filter(shop => shop.bk === true && shop.pt !== true)
+const shopImage = shuffle(shopsAll.value.filter(shop => shop.image === true && shop.pt !== true && shop.bk !== true))
+const shopTopBK = shuffle([...shopBk, ...shopImage.slice(0, 25 - shopBk.length - shopPt.length)])
+const shopTopPt = shuffle([...shopPt, ...shopTopBK.slice(0, 10 - shopPt.length)])
+const shopTopBkOther = shopTopBK.slice(10 - shopPt.length)
+const shopImageOther = shopImage.slice(25 - shopBk.length - shopPt.length)
 const shopNoImage = shuffle(shopsAll.value.filter(shop => shop.image !== true))
-const shopShuffle = [...shopTopTen, ...shopWithImageOther, ...shopNoImage]
+const shopShuffle = [...shopTopPt, ...shopTopBkOther, ...shopImageOther, ...shopNoImage]
 /* const shopShuffle = shuffle(shopsAll.value)
 const shopShuffleSort = [...shopShuffle].sort(function (a, b) {
   return b.image - a.image

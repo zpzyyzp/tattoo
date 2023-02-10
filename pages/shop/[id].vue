@@ -17,7 +17,16 @@
         </div>
       </v-col>
       <v-col cols="12">
-        <v-img v-if="shop.image" :aspect-ratio="16 / 9" :src="imgUrl(shop.id)" cover />
+        <v-img v-if="shop.image" :aspect-ratio="16 / 9" :src="imgUrl(shop.id)" cover>
+          <v-row class="fill-height">
+            <v-col v-if="shop.pt" cols="3" offset="9">
+              <v-img v-if="shop.pt" width="100%" src="/badge_PT.png" />
+            </v-col>
+            <v-col v-if="shop.bk" cols="3" offset="9">
+              <v-img v-if="shop.bk" width="100%" src="/badge_BK.png" />
+            </v-col>
+          </v-row>
+        </v-img>
         <v-img v-else :aspect-ratio="16 / 9" src="/no-image.jpg" cover />
       </v-col>
       <v-col cols="12">
