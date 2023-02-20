@@ -8,6 +8,8 @@ const image = 'https://book.flag-ts.com/logo.png'
 const url = 'https://book.flag-ts.com/'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
+// @ts-ignore
+// @ts-ignore
 export default defineNuxtConfig({
   _majorVersion: 0,
   css: ['@/assets/main.scss'],

@@ -16,7 +16,7 @@ const worksDefault = [
   '/work-square.jpg'
 ]
 const imgUrl = (id: number, num: number) => {
-  return '/img/' + ('000' + id).slice(-3) + '/work_' + ('000' + num).slice(-3) + '.jpg'
+  return '/img/' + ('000' + id).slice(-3) + '/work_' + ('000' + num).slice(-3) + '.jpg' + '?20230220'
 }
 const worksList = computed(() => {
   if (props.works) {

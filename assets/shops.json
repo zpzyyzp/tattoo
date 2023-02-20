@@ -1271,7 +1271,7 @@
     "twitter": "",
     "facebook": "",
     "prefectures": "兵庫県",
-    "address": "姫路市高尾町12舞ビル",
+    "address": "姫路高尾町12舞ビル1F,2F",
     "phone": "0792291690",
     "description": ""
   },
@@ -1764,8 +1764,8 @@
     "pt": null,
     "bk": null,
     "email": "axiz_and_nico@icloud.com",
-    "image": null,
-    "works": null,
+    "image": true,
+    "works": 3,
     "name": "STUDIO ARRUDEMO",
     "nameKana": "スタジオアルデモ",
     "artist": "Anne、Them、Nao",
@@ -1779,7 +1779,7 @@
     "prefectures": "東京都",
     "address": "西東京市ひばりが丘北4丁目1-31レルシェビル206号室　〒202-0002",
     "phone": "08058518062",
-    "description": ""
+    "description": "当店はひばりヶ丘駅徒歩2分、完全予約制のタトゥースタジオです。\n女性彫り師2名、見習い彫り師1名在籍しており、リアリスティック・ファインライン・アブストラクト・アメリカントラディショナルなどの様々なジャンルに対応しております。\n詳しい情報はホームページ、お問い合わせは各彫り師の公式ラインまで。"
   },
   {
     "id": 85,
@@ -2466,10 +2466,10 @@
   {
     "id": 116,
     "pt": null,
-    "bk": null,
+    "bk": true,
     "email": "info@inkedcat.jp",
-    "image": null,
-    "works": null,
+    "image": true,
+    "works": 5,
     "name": "Inked Cat",
     "nameKana": "インクドキャット",
     "artist": "Yuya",
@@ -2483,7 +2483,7 @@
     "prefectures": "東京都",
     "address": "世田谷区野沢２丁目３４-６ ビルディングオグラ４階",
     "phone": "08078045936",
-    "description": ""
+    "description": "タトゥーが初めての方や、女性も安心！\n洋彫りも可能です。\n小さなワンポイントもまずはご気軽にご相談ください。\nコンタクトフォーム or 080-7804-5936 まで。\n日本伝統刺青、和彫りを専門に、筋彫りはマシン、ぼかし、色は手彫りで行っております。針、インク、手袋等、すべて使い捨てです。医療用オートクレーブ（高圧蒸気滅菌器）、超音波洗浄器、殺菌線保管庫を導入し、厳重な衛生管理をしております。\n※20歳以上の方のみ施術可能です。\n【墨斎代理店】"
   },
   {
     "id": 117,
@@ -3326,8 +3326,8 @@
     "pt": null,
     "bk": null,
     "email": "ink.high.tattoo@gmail.com",
-    "image": null,
-    "works": null,
+    "image": true,
+    "works": 3,
     "name": "INK-HIGH-TATTOO",
     "nameKana": "インクハイタトゥー",
     "artist": "FUTOSHI",
@@ -3715,7 +3715,7 @@
     "prefectures": "大阪府",
     "address": "大阪市中央区西心斎橋2-12-14 オーシャンドライブ4F",
     "phone": "0662104510",
-    "description": "当店は、大阪・アメリカ村に位置するオープン型スタジオです。\nあらゆるジャンルに精通したベテランアーティストが多数在籍しております。和彫り・洋彫り・リアリスティック・トライバル・他店のリタッチやカバーアップなど、何でもご相談ください。\nお客様に安心と安全を提供するべく、徹底した衛生管理と充実のアフターサービスを実践しております。\nゲストアーティスト・やる気のある見習いも随時募集しております。\n\nお問い合わせはLINE公式アカウントまで⇒@goodtimesink"
+    "description": "当店は、大阪・アメリカ村に位置するオープン型スタジオです。\nあらゆるジャンルに精通したベテランアーティストが多数在籍しております。和彫り・洋彫り・リアリスティック・トライバル・他店のリタッチやカバーアップなど、何でもご相談ください。\nお客様に安心と安全を提供するべく、徹底した衛生管理と充実のアフターサービスを実践しております。\nゲストアーティスト・やる気のある見習いも随時募集しております。\n\nお問い合わせはLINE公式アカウントまで⇒@goodtimesink\n【墨斎代理店】"
   },
   {
     "id": 174,
@@ -4801,13 +4801,13 @@
     "bk": true,
     "email": "roca.187.gmt@docomo.ne.jp",
     "image": true,
-    "works": null,
+    "works": 5,
     "name": "Naminoko Crane Tattoo",
     "nameKana": "ナミノコクレインタトゥー",
     "artist": "なおき",
     "artistKana": "ナオキ",
     "url": "",
-    "instagram": "",
+    "instagram": "https://www.instagram.com/roca.nok.nct/",
     "instagramOther": "",
     "youtube": "",
     "twitter": "",
@@ -4815,7 +4815,7 @@
     "prefectures": "神奈川県",
     "address": "足柄下郡　真鶴町",
     "phone": "08012637488",
-    "description": ""
+    "description": "【墨斎代理店】"
   },
   {
     "id": 224,
@@ -5506,7 +5506,7 @@
     "email": "marm.m1214@docomo.ne.jp",
     "image": true,
     "works": 3,
-    "name": "東京タトゥースタジオ二代目江戸光",
+    "name": "東京二代目江戸光",
     "nameKana": "トウキョウタトゥースタジオニダイメエドミツ",
     "artist": "二代目江戸光",
     "artistKana": "ニダイメエドミツ",
@@ -6228,7 +6228,7 @@
   {
     "id": 288,
     "pt": null,
-    "bk": null,
+    "bk": true,
     "email": "shootinggallery.tattoo@gmail.com",
     "image": true,
     "works": null,
@@ -6245,7 +6245,7 @@
     "prefectures": "青森県",
     "address": "三沢市中央町2-11-22",
     "phone": "0176276388",
-    "description": ""
+    "description": "【墨斎代理店】"
   },
   {
     "id": 289,
@@ -6274,8 +6274,8 @@
     "pt": null,
     "bk": null,
     "email": "rebelta21950@gmail.com",
-    "image": null,
-    "works": null,
+    "image": true,
+    "works": 3,
     "name": "REBEL TATTOO",
     "nameKana": "",
     "artist": "彫渋",
@@ -6296,8 +6296,8 @@
     "pt": null,
     "bk": null,
     "email": "bigbirdtattoo@yahoo.co.jp",
-    "image": null,
-    "works": null,
+    "image": true,
+    "works": 3,
     "name": "BIGBIRDTATTOO",
     "nameKana": "ビッグバードタトゥー",
     "artist": "HIRO",
