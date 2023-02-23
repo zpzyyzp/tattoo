@@ -6,7 +6,7 @@ defineProps({
   }
 })
 const imgUrl = (id) => {
-  return '/img/' + ('000' + id).slice(-3) + '/top-thumb.jpg'
+  return '/img/' + ('000' + id).slice(-3) + '/top-thumb.jpg?20230220'
 }
 </script>
 
