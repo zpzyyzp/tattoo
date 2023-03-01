@@ -124,7 +124,7 @@ function instagramId (url) {
   return url.replace('https://www.instagram.com/', '').replace('/', '')
 }
 const imgUrl = (id) => {
-  return '/img/' + ('000' + id).slice(-3) + '/top.jpg' + '?20230226'
+  return '/img/' + ('000' + id).slice(-3) + '/top.jpg' + '?20230301'
 }
 const description = computed(() => {
   return '【TATTOO BOOK】' + shop.value.prefectures + 'の刺青・タトゥースタジオ、' + shop.value.name + '｜口コミで人気の彫師・タトゥーアーティストの情報や、おすすめのタトゥースタジオ・作品（和彫り・ブラックアンドグレイ・トライバル・アメリカントラディショナル）を検索・予約できます。'
