@@ -417,7 +417,15 @@ export default defineNuxtConfig({
       '/shop/291',
       '/shop/292',
       '/shop/293',
-      '/shop/294'
+      '/shop/294',
+      '/shop/295',
+      '/shop/296',
+      '/shop/297',
+      '/shop/298',
+      '/shop/299',
+      '/shop/300',
+      '/shop/301',
+      '/shop/302'
     ]
   }
 })
