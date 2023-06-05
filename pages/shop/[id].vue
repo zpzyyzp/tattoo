@@ -1,5 +1,5 @@
 <template>
-  <v-container class="fill-height px-0 px-sm-4">
+  <v-container class="px-0 px-sm-4">
     <v-row dense>
       <v-col cols="12">
         <v-no-ssr>

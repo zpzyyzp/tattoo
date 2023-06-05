@@ -1,5 +1,5 @@
 <template>
-  <v-container class="fill-height">
+  <v-container>
     <v-row :dense="$vuetify.display.xs">
       <v-col cols="12">
         <v-no-ssr>
