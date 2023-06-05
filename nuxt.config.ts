@@ -131,7 +131,7 @@ export default defineNuxtConfig({
   },
 
   generate: {
-    routes: [
+    /* routes: [
       '/shop/2',
       '/shop/3',
       '/shop/4',
@@ -430,7 +430,7 @@ export default defineNuxtConfig({
       '/shop/300',
       '/shop/301',
       '/shop/302'
-    ]
+    ] */
   },
 
   devtools: {
