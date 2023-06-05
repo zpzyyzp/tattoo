@@ -5,9 +5,8 @@ const props = defineProps({
     required: true
   },
   works: {
-    type: Number,
-    required: true,
-    default: null
+    type: Array,
+    required: true
   }
 })
 const worksDefault = [
@@ -15,12 +14,9 @@ const worksDefault = [
   '/work-portrait.jpg',
   '/work-square.jpg'
 ]
-const imgUrl = (id: number, num: number) => {
-  return '/img/' + ('000' + id).slice(-3) + '/work_' + ('000' + num).slice(-3) + '.jpg' + '?20230508'
-}
 const worksList = computed(() => {
   if (props.works) {
-    return [...Array(props.works)].map((_, i) => imgUrl(props.id, i + 1))
+    return props.works.map(x => x.work.sizes.large)
   }
   return worksDefault
 })
@@ -34,9 +30,12 @@ const onHide = () => (visibleRef.value = false)
 </script>
 
 <template>
-  <v-col cols="12" class="works">
-    <h2>作品画像</h2>
-    <v-row class="my-4">
+  <v-col cols="12" class="works text-center" style="background-color: #f7f7f7">
+    <h2>作品紹介</h2>
+    <h3 class="text-narrow">
+      TATTOO WORKS
+    </h3>
+    <v-row class="my-4" justify="center" dense>
       <v-col
         v-for="(img, idx) in worksList"
         :key="idx"
@@ -79,5 +78,9 @@ export default {
 </script>
 
 <style scoped>
-
+.text-narrow {
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  transform: scale(1, 1.75)
+}
 </style>

@@ -13,9 +13,11 @@ const url = 'https://book.flag-ts.com/'
 export default defineNuxtConfig({
   _majorVersion: 0,
   css: ['@/assets/main.scss'],
+
   build: {
     transpile: ['vuetify']
   },
+
   vite: {
     ssr: {
       noExternal: ['vuetify']
@@ -24,6 +26,7 @@ export default defineNuxtConfig({
       'process.env.DEBUG': false
     }
   },
+
   modules: [
     'nuxt-icon',
     '@kevinmarrec/nuxt-pwa',
@@ -126,6 +129,7 @@ export default defineNuxtConfig({
       description
     }
   },
+
   generate: {
     routes: [
       '/shop/2',
@@ -427,5 +431,9 @@ export default defineNuxtConfig({
       '/shop/301',
       '/shop/302'
     ]
+  },
+
+  devtools: {
+    enabled: false
   }
 })

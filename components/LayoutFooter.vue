@@ -11,7 +11,7 @@
       </v-col>
       <v-col cols="12" sm="6" class="d-flex justify-sm-start justify-center">
         <v-btn size="x-large" href="https://blog.flag-ts.com/book-contact/" target="_blank">
-          タトゥースタジオを掲載する
+          タトゥースタジオ掲載に関して
           <v-icon size="x-large" class="ml-4">
             mdi-chevron-right
           </v-icon>
@@ -19,16 +19,16 @@
       </v-col>
       <v-col cols="12" class="d-flex justify-center flex-wrap">
         <v-btn flat to="/privacy">
-          プライバシーポリシー
+          PRIVACY POLICY
         </v-btn>
         <v-btn flat to="/terms">
-          利用規約
+          TERMS
         </v-btn>
         <v-btn flat to="/contact">
-          お問い合わせ
+          CONTACT
         </v-btn>
         <v-btn flat to="/about">
-          運営会社
+          ABOUT
         </v-btn>
       </v-col>
       <v-col class="text-center" cols="12">

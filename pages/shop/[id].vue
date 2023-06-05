@@ -1,12 +1,12 @@
 <template>
-  <v-container class="fill-height">
-    <v-row :dense="$vuetify.display.xs">
+  <v-container class="fill-height px-0 px-sm-4">
+    <v-row dense>
       <v-col cols="12">
         <v-no-ssr>
           <page-breadcrumbs :breadcrumbs="breadcrumbs" />
         </v-no-ssr>
       </v-col>
-      <v-col cols="12">
+      <!--      <v-col cols="12">
         <div class="title-header">
           <h1 class="font-weight-bold text-h4 text-sm-h3">
             {{ shop.name }}
@@ -15,9 +15,9 @@
             {{ shop.nameKana }}
           </h2>
         </div>
-      </v-col>
+      </v-col>-->
       <v-col cols="12">
-        <v-img v-if="shop.image" :aspect-ratio="16 / 9" :src="imgUrl(shop.id)" cover>
+        <v-img v-if="shop.image" :aspect-ratio="16 / 9" :src="shop.image.sizes.large" cover>
           <v-row class="fill-height">
             <v-col v-if="shop.pt" cols="3" offset="9">
               <v-img v-if="shop.pt" width="100%" src="/badge_PT.png" />
@@ -25,18 +25,28 @@
             <v-col v-if="shop.bk" cols="3" offset="9">
               <v-img v-if="shop.bk" width="100%" src="/badge_BK.png" />
             </v-col>
+            <v-col cols="12" class="shadow text-white mt-auto">
+              <v-card-subtitle class="font-weight-bold text-h5 text-sm-h4 text-white" style="opacity: 1">
+                {{ shop.nameKana }}
+              </v-card-subtitle>
+              <v-card-title class="font-weight-bold text-h4 text-sm-h3 pb-0">
+                {{ shop.name }}
+              </v-card-title>
+            </v-col>
           </v-row>
         </v-img>
         <v-img v-else :aspect-ratio="16 / 9" src="/no-image.jpg" cover />
       </v-col>
       <v-col cols="12">
-        <v-card variant="outlined">
-          <v-card-title class="font-weight-bold text-h5 text-sm-h4">
+        <v-card variant="flat">
+          <!--          <v-card-title class="font-weight-bold text-h5 text-sm-h4">
             {{ shop.name }}
-          </v-card-title>
+          </v-card-title>-->
           <v-card-text>
             <p class="text-body-1 mt-2 mb-4">
-              {{ shop.address }}
+              <v-icon color="grey" size="large">
+                mdi-map-marker
+              </v-icon>{{ shop.address }}
             </p>
             <h2 class="font-weight-bold text-h6 text-sm-h5 text-grey-darken-4">
               在籍アーティスト・彫師
@@ -94,6 +104,31 @@
         </v-card>
       </v-col>
       <work-list :id="shop.id" :works="shop.works" />
+      <v-col cols="12" class="text-center">
+        <v-btn color="#ad72ab" class="text-white" elevation="8">
+          CONTACT !
+          <v-dialog activator="parent" max-width="400">
+            <v-card>
+              <v-card-title class="text-center font-weight-bold">
+                タトゥースタジオへ連絡する
+              </v-card-title>
+              <v-card-text>
+                <v-row class="mb-4">
+                  <v-col v-for="i in 4" :key="i" cols="3">
+                    <v-card color="grey" rounded="lg">
+                      <v-img aspect-ratio="1" />
+                    </v-card>
+                  </v-col>
+                </v-row>
+                注意書き注意書き注意書き注意書き注意書き注意書き注意書き注意書き注意書き注意書き注意書き注意書き注意書き注意書き注意書き注意書き注意書き注意書き
+              </v-card-text>
+            </v-card>
+          </v-dialog>
+        </v-btn>
+      </v-col>
+      <v-col cols="12">
+        <tattoo-recommend />
+      </v-col>
     </v-row>
   </v-container>
 </template>
@@ -101,7 +136,15 @@
 <script setup>
 const route = useRoute()
 const { id } = route.params
-const { data: shop } = await useFetch('/api/shops/' + id)
+const { data: shopOrigin } = await useFetch('https://book-admin.flag-ts.com/wp-json/wp/v2/shop/' + id + '?acf_format=standard')
+const shop = computed(() => {
+  return {
+    prefectures: '',
+    uid: shopOrigin.value.acf.id,
+    ...shopOrigin.value.acf,
+    id: shopOrigin.value.id
+  }
+})
 const breadcrumbs = computed(() => {
   return [
     {
@@ -109,8 +152,7 @@ const breadcrumbs = computed(() => {
       text: 'TOP'
     },
     {
-      disabled: true,
-      to: '/',
+      to: '/prefecture/' + shop.value.prefectures,
       text: shop.value.prefectures
     },
     {
@@ -122,9 +164,6 @@ const breadcrumbs = computed(() => {
 })
 function instagramId (url) {
   return url.replace('https://www.instagram.com/', '').replace('/', '')
-}
-const imgUrl = (id) => {
-  return '/img/' + ('000' + id).slice(-3) + '/top.jpg' + '?20230508'
 }
 const description = computed(() => {
   return '【TATTOO BOOK】' + shop.value.prefectures + 'の刺青・タトゥースタジオ、' + shop.value.name + '｜口コミで人気の彫師・タトゥーアーティストの情報や、おすすめのタトゥースタジオ・作品（和彫り・ブラックアンドグレイ・トライバル・アメリカントラディショナル）を検索・予約できます。'
@@ -177,5 +216,8 @@ useHead({
 }
 p {
   margin-bottom: 0.5rem;
+}
+.shadow {
+  text-shadow: 1px 1px 1px #000, 1px 1px 2px #000, 1px 1px 3px #000;
 }
 </style>

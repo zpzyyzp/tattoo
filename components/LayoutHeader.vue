@@ -2,7 +2,7 @@
   <div>
     <v-app-bar>
       <template #prepend>
-        <v-app-bar-title>
+        <v-app-bar-title class="mx-auto">
           <nuxt-link to="/">
             <v-img
               src="/logo.png"
@@ -67,5 +67,10 @@ const navList = [
 </script>
 
 <style scoped>
-
+.v-toolbar :deep(.v-toolbar__prepend) {
+  margin-left: auto;
+}
+.v-toolbar :deep(.v-toolbar__append) {
+  margin-left: 4px;
+}
 </style>
