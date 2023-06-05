@@ -52,6 +52,7 @@
 const drawer = ref(false)
 const drawerList = [
   { icon: 'mdi-home', title: 'TOP', to: '/' },
+  { icon: 'mdi-book-open-page-variant-outline', title: 'タトゥーコラム', to: '/column' },
   { icon: 'mdi-account-lock', title: 'プライバシーポリシー', to: '/privacy' },
   { icon: 'mdi-file-document', title: '利用規約', to: '/terms' },
   { icon: 'mdi-email', title: 'お問い合わせ', to: '/contact' },
@@ -59,6 +60,7 @@ const drawerList = [
 ]
 const navList = [
   { icon: 'mdi-home', title: 'TOP', to: '/' },
+  { icon: 'mdi-book-open-page-variant-outline', title: 'タトゥーコラム', to: '/column' },
   { icon: 'mdi-account-lock', title: 'プライバシーポリシー', to: '/privacy' },
   { icon: 'mdi-file-document', title: '利用規約', to: '/terms' },
   { icon: 'mdi-email', title: 'お問い合わせ', to: '/contact' },

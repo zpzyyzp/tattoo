@@ -17,7 +17,9 @@
       </v-row>
     </v-card-text>
     <v-card-actions class="justify-end">
-      <v-btn>＞一覧</v-btn>
+      <v-btn to="/prefecture">
+        ＞一覧
+      </v-btn>
     </v-card-actions>
     <v-divider />
   </v-sheet>

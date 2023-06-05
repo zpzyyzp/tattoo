@@ -1,8 +1,8 @@
 <template>
-  <v-sheet color="#8554a8" variant="plain" height="400">
+  <v-card color="#8554a8" variant="flat" height="400" :hover="false">
     <v-row no-gutters>
-      <v-col cols="auto">
-        <v-img src="./phone.png" height="400" />
+      <v-col cols="6" lg="3" class="text-left d-flex justify-start">
+        <img src="/phone.png" height="400" />
       </v-col>
       <v-col class="d-flex justify-center align-center">
         <div class="text-white text-center">
@@ -19,7 +19,7 @@
     <v-btn size="x-large" variant="outlined" color="white" href="https://blog.flag-ts.com/book-contact/" target="_blank">
       タトゥースタジオの掲載へ
     </v-btn>
-  </v-sheet>
+  </v-card>
 </template>
 
 <script>
