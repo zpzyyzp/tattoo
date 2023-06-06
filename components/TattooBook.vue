@@ -2,7 +2,7 @@
   <v-card color="#8554a8" variant="flat" height="400" :hover="false">
     <v-row no-gutters>
       <v-col cols="6" lg="3" class="text-left d-flex justify-start">
-        <img src="/phone.png" height="400" />
+        <img src="/phone.png" height="400">
       </v-col>
       <v-col class="d-flex justify-center align-center">
         <div class="text-white text-center">
@@ -22,16 +22,13 @@
   </v-card>
 </template>
 
-<script>
-export default {
-  name: 'TattooBook',
-  props: {
-    count: {
-      type: Number,
-      required: true
-    }
+<script setup>
+const count = ref(0)
+const { data } = await useFetch('https://book-admin.flag-ts.com/wp-json/wp/v2/shop?per_page=1', {
+  onResponse ({ response }) {
+    count.value = response.headers.get('x-wp-total')
   }
-}
+})
 </script>
 
 <style scoped>
